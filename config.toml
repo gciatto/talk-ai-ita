@@ -1,6 +1,6 @@
-baseURL = "https://danysk.github.io/Template-Hugo-Reveal-Slides"
-languageCode = "en-us"
-title = "A Hugo theme for creating Reveal.js presentations"
+baseURL = "https://gciatto.github.io/talk-ai-ita"
+languageCode = "it-it"
+title = "A cosa ci serve l'IA?"
 disableKinds = ["sitemap", "RSS"]
 theme = "reveal-hugo"
 publishDir = "build"
@@ -10,7 +10,7 @@ publishDir = "build"
 # uglyURLs = true
 
 [author]
-name = "Danilo Pianini"
+name = "Giovanni Ciatto"
 
 # currently only the unsafe mode for goldmark is supported
 [markup.goldmark.renderer]
