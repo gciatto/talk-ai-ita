@@ -8,7 +8,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><link rel="stylesheet" href="/talk-ai-ita/reveal-js/dist/reset.css">
 <link rel="stylesheet" href="/talk-ai-ita/reveal-js/dist/reveal.css">
-  <link rel="stylesheet" href="/talk-ai-ita/css/custom-theme.min.9fd54650d58c6bcbaf55c8b76bb1be8827ba31eacc1154da0218bd1b8cb0fd9c.css" id="theme"><link rel="stylesheet" href="/talk-ai-ita/highlight-js/solarized-dark.min.css">
+  <link rel="stylesheet" href="/talk-ai-ita/css/custom-theme.min.070b0342a289584469a055c04f0307a7ef4d85636315c11423f51ffcc2eef08c.css" id="theme"><link rel="stylesheet" href="/talk-ai-ita/highlight-js/solarized-dark.min.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto Mono" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Oxygen Mono" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Ubuntu Mono" rel="stylesheet">
@@ -28,6 +28,402 @@
     <section><h1 id="a-cosa-ci-serve-lintelligenza-arificiale">A cosa ci serve l’Intelligenza Arificiale?</h1>
 <p><a href="mailto:giovanni.ciatto@unibo.it">Giovanni Ciatto</a></p>
 </section><section>
+<h2 id="cosa-non-è-lia">Cosa (non) è l’IA?</h2>
+<p><a href="https://duckduckgo.com/?t=h_&amp;q=intelligenza+artificiale&amp;iax=images&amp;ia=images">https://duckduckgo.com/?t=h_&amp;q=intelligenza+artificiale&amp;iax=images&amp;ia=images</a></p>
+<p><img src="./search-ddg-ia.png" alt="Query “intelligenza artificiale” in data 2024-10-19 su DuckDuckGo mostra robot umanoidi"></p>
+</section><section>
+<h2 id="sfatiamo-alcuni-miti">Sfatiamo alcuni miti</h2>
+<ol>
+<li>
+<p>L’IA <em>non</em> è <strong>una cosa sola</strong></p>
+<ul>
+<li>ci sono varie cose che vengono chiamate IA, molto diverse tra loro</li>
+</ul>
+</li>
+<li>
+<p><em>Non</em> ci sono <strong>robot umanoidi</strong> <em>senzienti</em> che si comportano come le persone</p>
+<ul>
+<li>l’IA è spesso invisibile, e non sempre ha bisogno di un corpo
+<ul>
+<li>es. google translate</li>
+<li>es. filtri instagram</li>
+<li>es. NPC dei videogiochi</li>
+</ul>
+</li>
+<li>ci sono sono robot, anche umanoidi, ma ben che vada sanno fare azioni specifiche</li>
+</ul>
+</li>
+<li>
+<p>L’IA <em>non</em> è <strong>magica</strong> né onnipotente</p>
+<ul>
+<li>molta matematica, molta statistica, molta informatica</li>
+<li>spesso è molto limitata, e può fare solo quello per cui è stata progettata</li>
+</ul>
+</li>
+</ol>
+</section><section>
+<h2 id="cosè-lintelligenza-__umana__">Cos’è l’intelligenza <strong>umana</strong>?</h2>
+
+
+<span class="fragment ">
+  <p>Domanda difficile, la risposta dipende molto dal contesto</p>
+
+</span>
+
+
+
+<span class="fragment ">
+  <p>Esistono vari <strong>tipi</strong> di intelligenza <em>logico-matematica</em>, verbale-linguistica, <em>emotiva</em>, corporeo-cinestetica, …</p>
+
+</span>
+
+
+
+<span class="fragment ">
+  <p>Più facile definire per esempi:</p>
+<ul>
+<li>intelligenza come capacità di <em>apprendere</em> (dall’esempio, dall’errore, …)</li>
+<li>capacità di <em>adattamento</em> (applicare conoscenze a situazioni nuove)</li>
+<li>[<a href="https://it.wikipedia.org/wiki/Teoria_della_mente">Teoria della Mente</a>] capacità di comprendere e <em>interpretare</em> i comportamenti e pensieri <em>degli altri</em></li>
+<li>[<strong>Senso comune</strong>] conoscenza di base su come funziona il mondo fisico (es. “se tocco il fuoco mi scotto”)</li>
+</ul>
+
+</span>
+
+</section><section>
+<h2 id="intelligenza-vs-autonomia">Intelligenza vs. Autonomia</h2>
+<blockquote>
+<p>Altra caratteristica degli esseri umani: l’<strong>autonomia</strong>
+$\approx$ le persone possono fare ciò che vogliono</p>
+</blockquote>
+<p>“Fare ciò che si vuole” $\approx$ “avere capacità di <em>scelta</em>”</p>
+<ul>
+<li>autonomia <strong>motivazionale</strong> $\rightarrow$ scelgo che <em>obiettivi</em> pormi
+<ul>
+<li>es. “voglio comprare l’ultimo gioco di Zelda”</li>
+</ul>
+</li>
+<li>autonomia <strong>esecutiva</strong> $\rightarrow$ scelgo <em>come</em> raggiungere gli obiettivi
+<ul>
+<li>es. “voglio andare al GameStop” vs. “voglio comprare sul Nintendo Store”</li>
+</ul>
+</li>
+</ul>
+
+
+<span class="fragment ">
+  <blockquote>
+<p>Intelligenza e autonomia sono <em>intrecciate</em>:
+<br> per <strong>scegliere</strong> e <strong>agire</strong> efficacemente servono molti aspetti dell’intelligenza</p>
+</blockquote>
+
+</span>
+
+</section><section>
+<h2 id="cosè-lintelligenza-__artificiale__">Cos’è l’intelligenza <strong>artificiale</strong>?</h2>
+<h3 id="in-parole-povere">(In parole povere)</h3>
+<p>Una macchina (un computer) che è in grado di:</p>
+<ul>
+<li>
+<p><em>emulare</em> una o più abilità tipiche dell’intelligenza umana</p>
+<ul>
+<li>anche abilità scontate per un umano, come <em>riconoscere</em> le cose del mondo fisico
+<ul>
+<li><strong>rappresentazione del mondo</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>raggiungere un qualche grado di <em>autonomia</em></p>
+<ul>
+<li>va già bene fermarsi all’autonomia <em>esecutiva</em></li>
+</ul>
+</li>
+</ul>
+</section><section>
+<h2 id="autonomia--automazione">Autonomia &gt; Automazione</h2>
+<ul>
+<li>
+<p><strong>Automazione</strong>: una macchina che svolge la sua funzione senza (troppo) aver bisogno di intervento umano</p>
+<ul>
+<li>la macchina <em>non sceglie</em> cosa fare e come farlo</li>
+</ul>
+</li>
+<li>
+<p><strong>Autonomia</strong>: la macchina ha <em>margine di scelta</em> su cosa fare e/o come</p>
+</li>
+</ul>
+<h3 id="esempio">Esempio:</h3>
+<ol>
+<li>il <strong>condizionatore</strong>: è automatico</li>
+<li>alcuni <strong>Roomba</strong> hanno margine di autonomia <em>esecutiva</em></li>
+</ol>
+</section><section>
+<h2 id="diversi-livelli-di-ia">Diversi livelli di IA</h2>
+<ol>
+<li>
+<p>Artificial <em>narrow</em> intelligence (<strong>ANI</strong>, IA <em>ristretta</em>): macchine con un compito preciso che svolgono emulando qualche abilità umana</p>
+<ul>
+<li>noi siamo qui!</li>
+</ul>
+</li>
+<li>
+<p>Artificial <em>general</em> intelligence (<strong>AGI</strong>, IA <em>generale</em>): macchine con un grado di intelligenza ed autonomia comparabili a quelle umane</p>
+<ul>
+<li>lavori in corso, ETA: decenni o secoli</li>
+</ul>
+</li>
+<li>
+<p>Artificial <em>super</em> intelligence (<strong>ASI</strong>, IA <em>superiore</em>): macchine con un grado di intelligenza ed autonomia superiori a quelle umane</p>
+<ul>
+<li>superiori a quelle di <em>ogni</em> essere <em>umano</em>? o della <em>collettività umana</em>?</li>
+</ul>
+</li>
+</ol>
+</section><section>
+<h1 id="agi--artificial-_general_-intelligence">AGI — Artificial <em>General</em> Intelligence</h1>
+</section><section>
+<h2 id="esempi-di-agi-nella-cinematografia-pt-1">Esempi di AGI nella cinematografia (pt. 1)</h2>
+<p>Sonny di <a href="https://it.wikipedia.org/wiki/Io,_robot_(film)">“Io Robot”</a></p>
+<p><img src="./sonny.jpg" alt="Rappresentazione grafica di Sonny"></p>
+<ul>
+<li>corpo umanoide con sembianze robotiche</li>
+<li>iper-razionale</li>
+<li>dotato di “libero-arbitrio”</li>
+<li>si riscopre emotivo nell’arco narrativo</li>
+</ul>
+</section><section>
+<h2 id="esempi-di-agi-nella-cinematografia-pt-2">Esempi di AGI nella cinematografia (pt. 2)</h2>
+<p>Dolores Abernathy di <a href="https://en.wikipedia.org/wiki/Westworld_(TV_series)">“Westworld”</a></p>
+<p><img src="./dolores.jpg" alt="Rappresentazione grafica di Dolores"></p>
+<ul>
+<li>corpo umanoide con sembianze umane</li>
+<li>iper-emotiva</li>
+<li>guadagna autocoscienza e quindi libero arbitrio nell’arco narrativo
+<ul>
+<li>maturando, attraversa vari stadi emotivi: vendicativa, compassionevole, etc.</li>
+</ul>
+</li>
+<li>in Westworld, la coscienza sta in una piccola pallina nel cranio
+<ul>
+<li>può essere trasferita in altri corpi, o copiata</li>
+</ul>
+</li>
+</ul>
+</section><section>
+<h2 id="esempi-di-agi-nella-cinematografia-pt-3">Esempi di AGI nella cinematografia (pt. 3)</h2>
+<p><a href="https://it.wikipedia.org/wiki/J.A.R.V.I.S.">J.A.R.V.I.S.</a> di IronMan</p>
+
+
+
+
+
+<img src="./jarvis.png" alt="Rappresentazione grafica di JARVIS" style="max-width: 95vw; max-height: 80vh; object-fit: contain;">
+
+<ul>
+<li>nessun corpo: è un’entità virtuale</li>
+<li>iper-razionale</li>
+<li>inizialmente un mero assistente, fa poi delle scelte autonome che impattano la trama</li>
+<li>accesso completo al Internet</li>
+<li>capacità di guadagnare il ottenere di altre macchine</li>
+</ul>
+</section><section>
+<h1 id="asi--artificial-_super_-intelligence">ASI — Artificial <em>Super</em> Intelligence</h1>
+</section><section>
+<h2 id="esempi-di-asi-nella-cinematografia-pt-1">Esempi di ASI nella cinematografia (pt. 1)</h2>
+<p><a href="https://en.wikipedia.org/wiki/Skynet_(Terminator)">Skynet</a> di Terminator</p>
+
+
+
+
+
+<img src="./skynet.webp" alt="Rappresentazione grafica di Skynet" style="max-width: 95vw; max-height: 80vh; object-fit: contain;">
+
+<ul>
+<li>nessun corpo: è un’entità virtuale</li>
+<li>iper-razionale</li>
+<li>quando raggiunge la auto-consapevolezza
+<ol>
+<li>decide che gli umani sono una minaccia</li>
+<li>scatena un olocausto nucleare come attacco preventivo</li>
+</ol>
+</li>
+<li>[implicito] capacità di ottenere il controllo di altre macchine</li>
+</ul>
+</section><section>
+<h2 id="esempi-di-asi-nella-cinematografia-pt-2">Esempi di ASI nella cinematografia (pt. 2)</h2>
+<p>L’IA di <a href="https://it.wikipedia.org/wiki/Matrix">Matrix</a> (da non confondersi col solo Mr. Smith)</p>
+
+
+
+
+
+<img src="./matrix.avif" alt="Rappresentazione grafica di Matrix" style="max-width: 95vw; max-height: 80vh; object-fit: contain;">
+
+<ul>
+<li>non si capisce se IA sono un’entità collettiva o tante entità invididuali</li>
+<li>le IA si sono ribellate agli umani:
+<ol>
+<li>gli umani hanno oscurato il cielo per togliere energia alle macchine</li>
+<li>le macchine hanno iniziato ad attingere energia dagli umani coltivati</li>
+</ol>
+</li>
+<li>[implicito] le macchine hanno la capacità di costruirsi e (ri)progettarsi da sole</li>
+</ul>
+</section><section>
+<h2 id="esempi-di-asi-nella-cinematografia-pt-3">Esempi di ASI nella cinematografia (pt. 3)</h2>
+<p>Rehoboam di <a href="https://it.wikipedia.org/wiki/Episodi_di_Westworld_-_Dove_tutto_%C3%A8_concesso_(terza_stagione)">Westworld 3</a></p>
+
+
+
+
+
+<img src="./rehoboam.png" alt="Rappresentazione grafica di Rehoboam" style="max-width: 95vw; max-height: 80vh; object-fit: contain;">
+
+<ul>
+<li>un supercomputer di dimensione sferica</li>
+<li>accesso ai dati personali di tutte le persone, e non solo</li>
+<li>iper-razionale</li>
+<li>capace di prevedere il prevedere il futuro degli individui e della società
+<ul>
+<li>capace si simulare scenari e prendere decisioni per evitare quelli negativi</li>
+</ul>
+</li>
+</ul>
+</section><section>
+<h2 id="esempi-di-asi-nella-cinematografia-pt-4">Esempi di ASI nella cinematografia (pt. 4)</h2>
+<p>“Il direttore” di <a href="https://it.wikipedia.org/wiki/Travelers">Travelers</a></p>
+
+
+
+
+
+<img src="./the-director.png" alt="Rappresentazione grafica del Direttore" style="max-width: 95vw; max-height: 80vh; object-fit: contain;">
+
+<ul>
+<li>un computer quantistico, di forma cilindrica</li>
+<li>accesso ai dati disponibili in rete</li>
+<li>capace di simulare scenari alternativi nel passato, e il loro impatto sul presente</li>
+</ul>
+</section><section>
+<h1 id="ani--artificial-_narrow_-intelligence">ANI — Artificial <em>Narrow</em> Intelligence</h1>
+</section><section>
+<h2 id="esempi-di-ani-dalla-vita-reale-pt-1">Esempi di ANI dalla vita reale (pt. 1)</h2>
+<p>Traduzione automatica <em>di testo</em> — Es. <a href="https://translate.google.it/?hl=it&amp;sl=it&amp;tl=en">Google Translate</a></p>
+
+
+
+
+
+<a href="https://translate.google.it/?hl=it&amp;sl=it&amp;tl=en&amp;text=apelle%20figlio%20di%20apollo%20fece%20una%20palla%20di%20pelle%20di%20pollo%20e%20tutti%20i%20pesci%20vennero%20a%20galla%20per%20vedere%20la%20palla%20di%20pelle%20di%20pollo%20fatta%20da%20apelle%20figlio%20di%20apollo&amp;op=translate">
+
+<img src="./google-translate.png" alt="Interfaccia di Google Translate" style="max-width: 95vw; max-height: 80vh; object-fit: contain;">
+
+</a>
+
+<ul>
+<li>include anche <em>Text-to-Speech</em> (generazione di audio “parlato” da testo)</li>
+</ul>
+</section><section>
+<h2 id="esempi-di-ani-dalla-vita-reale-pt-2">Esempi di ANI dalla vita reale (pt. 2)</h2>
+<p>Traduzione automatica <em>di immagini</em> — Es. <a href="https://translate.google.it/?sl=en&amp;tl=it&amp;op=images">Google Translate</a></p>
+
+
+
+
+
+<img src="./google-translate-image.png" alt="Interfaccia di Google Translate" style="max-width: 95vw; max-height: 80vh; object-fit: contain;">
+
+<ul>
+<li>include capacità di <em>riconoscimento</em> e <em>localizzazione</em> di testo in immagini</li>
+<li>include capacità di <em>traduzione</em> di testo in immagini</li>
+<li>include capacità di <em>disporre</em> il testo tradotto in modo simile all’originale</li>
+</ul>
+</section><section>
+<h2 id="esempi-di-ani-dalla-vita-reale-pt-3">Esempi di ANI dalla vita reale (pt. 3)</h2>
+<p>“Filtri” dei social network — Es. <a href="https://www.instagram.com/">Instagram</a></p>
+
+
+
+
+
+<img src="./instagram-filters.jpg" alt="Interfaccia di Instagram" style="max-width: 95vw; max-height: 80vh; object-fit: contain;">
+
+<ul>
+<li>include capacità di <em>riconoscere la posa</em> e <em>l’orientamento</em> del viso</li>
+<li>include capacità di <em>modificare</em> immagini predefinite e orientarle rispetto al viso</li>
+</ul>
+</section><section>
+<h2 id="esempi-di-ani-dalla-vita-reale-pt-4">Esempi di ANI dalla vita reale (pt. 4)</h2>
+<p>Riconoscimento di immagini — Es. analisi del traffico</p>
+<p>
+
+
+
+
+<img src="./image-recognition-1.avif" alt="" style="width: 45vw; max-width: 95vw; max-height: 80vh; object-fit: contain;">
+
+
+
+
+
+
+<img src="./image-recognition-2.webp" alt="" style="width: 45vw; max-width: 95vw; max-height: 80vh; object-fit: contain;">
+
+
+
+
+
+
+<img src="./image-recognition-3.png" alt="" style="max-width: 95vw; max-height: 80vh; object-fit: contain;">
+</p>
+<ul>
+<li>include capacità di <em>riconoscere</em> e <em>localizzare</em> oggetti in immagini</li>
+<li>sembra una IA “unica”, ma in realtà ogni IA è specializzata su un gruppo di oggetti</li>
+<li>utile per <em>analisi</em> del traffico, <em>monitoraggio</em> di eventi, etc.</li>
+</ul>
+</section><section>
+<h2 id="esempi-di-ani-dalla-vita-reale-pt-5">Esempi di ANI dalla vita reale (pt. 5)</h2>
+<p>Riconoscimento di immagini — Es. autenticazione con volto</p>
+
+
+
+
+
+<img src="./face-recognition.jpg" alt="" style="max-width: 95vw; max-height: 80vh; object-fit: contain;">
+
+<ul>
+<li>diverso dalla precedente: bisogna <em>distringuere</em> un volto dagli altri
+<ul>
+<li>più complesso del semplice trovare un volto in una foto</li>
+</ul>
+</li>
+<li>utile per <em>autenticazione</em> e <em>controllo</em> accessi
+<ul>
+<li>in realtà relativamente <em>insicuro</em> per questo scopo</li>
+</ul>
+</li>
+</ul>
+</section><section>
+<h2 id="esempi-di-ani-dalla-vita-reale-pt-6">Esempi di ANI dalla vita reale (pt. 6)</h2>
+<p>Riconoscimento di immagini — Es. di impronte digitali</p>
+
+
+
+
+
+<img src="./fingerprints.png" alt="" style="max-width: 95vw; max-height: 80vh; object-fit: contain;">
+
+<ul>
+<li>riconosce <em>solo</em> impronte digitali, e le <em>distingue</em> tra loro</li>
+<li>sapendo che l’immagine è un’impronta, si può aumentare la precisione del riconoscimento, sfruttando le <em>minuzione tipiche</em></li>
+<li>utile per <em>autenticazione</em> e <em>controllo</em> accessi
+<ul>
+<li>più sicuro del riconoscimento facciale, meno della password</li>
+</ul>
+</li>
+</ul>
 </section>
 
   
