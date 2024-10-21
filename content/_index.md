@@ -34,7 +34,7 @@ outputs = ["Reveal"]
     - ci sono sono robot, anche umanoidi, ma ben che vada sanno fare azioni specifiche
 
 3. L'IA _non_ è __magica__ né onnipotente
-    - molta matematica, molta statistica, molta informatica
+    - molta _matematica_, molta _statistica_, molta _informatica_
     - spesso è molto limitata, e può fare solo quello per cui è stata progettata
 
 ---
@@ -298,3 +298,176 @@ Riconoscimento di immagini — Es. di impronte digitali
 - sapendo che l'immagine è un'impronta, si può aumentare la precisione del riconoscimento, sfruttando le _minuzione tipiche_
 - utile per _autenticazione_ e _controllo_ accessi
     * più sicuro del riconoscimento facciale, meno della password
+
+---
+
+## Esempi di ANI dalla vita reale (pt. 7)
+
+Riconoscimento di immagini — Es. di caratteri scritti a mano
+
+{{< image src="./hwr-1.jpg" >}} 
+[esempio interattivo qui](https://shapecatcher.com/)
+
+- molto difficile riconoscere _intero testo_ scritto a mano
+    - più facile riconoscere _singoli caratteri_
+- utile per automazione di _operazioni postali_, o di elaborazione di _moduli standardizzati_
+
+---
+
+## Esempi di ANI dalla vita reale (pt. 8)
+
+Calcolo di percorsi — Es. [Google Maps](https://www.google.it/maps)
+
+{{< image src="./google-maps.png" link="https://www.google.it/maps/dir/Cesena,+FC/47019+Tredozio+FC/@44.2020717,11.8303411,11z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x132ca4d41ed493c1:0xbee0ab1075577a47!2m2!1d12.2464292!2d44.1396438!1m5!1m1!1s0x132b6a8d8b16349b:0x89b559ffb27df3de!2m2!1d11.7438477!2d44.0792596!3e0?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" >}}
+
+- attività molto consolidata, ma è tra i primi esempi di IA nei libri di testo
+- include capacità di _calcolare_ il percorso migliore tra due punti
+    + magari considerando _traffico_, pedaggi, etc.
+
+---
+
+## Esempi di ANI dalla vita reale (pt. 9)
+
+Calcolo di percorsi — Es. _Non-Playing Characters_ (NPC, Personaggi non giocanti) nei videogiochi
+
+{{< image src="./a-star2.gif" width="80vw" >}}
+[esempio interattivo qui](https://amarillion.github.io/helixgraph/examples/d3/)
+
+- utile per far muovere i personaggi dei videogiochi in modo _realistico_ verso una destinazione
+- l'idea di fondo, è la stessa di Google Maps, ma in uno spazio diverso
+
+---
+
+## Esempi di ANI dalla vita reale (pt. 10)
+
+Riconoscimento di _suoni_ — Es. [Shazam](https://www.shazam.com/)
+
+{{< image src="./shazam.webp" >}}
+
+- riconosce canzoni e brani musicali da brevi estratti audio
+
+---
+
+## Esempi di ANI dalla vita reale (pt. 11)
+
+Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parlato
+
+[(esempio interattivo qui)](https://dictation.io/speech)
+{{< image src="./speech-recognition.png" >}}
+
+- _converte_ parlato in testo scritto e digitalizzato
+- utile in combinazione TTS (Text-to-Speech) per creare _assistenti vocali_
+
+---
+
+## Cosa hanno in comune questi esempi?
+
+> __Automazione__ $\approx$ si ottiene un _servizio_ senza bisogno di intervento umano
+
+{{% fragment %}}
+### Vantaggi diretti: 
++ _velocità_: le macchine sono più rapide degli umani nella maggior parte dei casi
++ _costo_: le macchine non fanno fatica, non si stancano, non hanno bisogno di stipendio
+    * alcuni servizi di IA hanno un prezzo che copre costi di _sviluppo/esercizio_ e _profitto_ del fornitore 
++ _precisione_: su compiti ripetitivi, le macchine sono più precise degli umani
+    * in generale, l'errore è controllabile $\implies$ compromesso tra _precisione_ e _velocità_
++ _disponibilità_: le macchine non hanno orari d'ufficio, non si ammalano, non vanno in ferie
++ _riproducibilità_: una volta compreso come automatizzare una attività, tutti possono beneficiarne
+{{% /fragment %}}
+
+{{% fragment %}}
+### Vantaggi indiretti:
++ le macchine abbattono _tempi e costi_ di _fruizione_ dei servizi che automatizzano
+    * es. una volta per tradurre un documento serviva un traduttore umano
++ _migliorano_ le nostre _vite_ in tante piccole cose
+    * es. non serve più conoscere i nomi delle vie, basta _"condividere la posizione"_ 
++ ci sollevano da attività _lavorative_ monotone e _ripetitive_
+{{% /fragment %}}
+
+--- 
+
+## IA vs. Informatica
+
+- Questi vantaggi sono veri per qualunque avanzamento tecnico comporti _automazione_
+
+- Molte _tecnologie informatiche_ introducono automazione __senza IA__
+
+- Esempi:
+    * _Social networks_ e app di _messaggistica_: automatizzano, velocizzano, e rendono asincrona la _comunicazione_ tra persone
+    * Ebay, Amazon, e altri _Negozi On-line_: automatizzano e velocizzano la _compravendita_ di beni
+    * Netflix, Prime Video, e altri servizi di _Entertainement Online_: rendono la _fruizione_ di audiovisi automatica e personalizzata
+    * YouTube, Vimeo, e altri servizi di _Video Sharing_: automatizzano la _pubblicazione_ di audiovisivi
+    * Uber, Lime, e altri servizi di _Car Sharing_: incrociano domanda e offerta di servizi di _mobilità_, automaticamente
+    * etc.
+
+{{% fragment %}}
+In realtà l'IA può essere applicata in questi ambiti, ma solo per _efficientizzare_ il servizio
+{{% /fragment %}}
+
+---
+
+## Cos'è l'informatica?
+
+{{% multicol %}}
+{{% col class="col-5" %}}
+{{< image alt="Rappresentazione grafica del ruolo del computer nell'elaborazione dell'informazione" src="computer-science.svg" width="50vw" >}}
+{{% /col %}}
+{{% col class="col-7" %}}
+- Il _computer_ **transforma** _dati_ di _input_ in dati di _output_
+    + **dati** $\approx$ informazioni interessanti e _digitali_
+    + es. input: `partenza=Cesena, destinazione=Bologna`
+    + es. output: _percorso stradale più veloce_
+
+- Durante la trasformazione, il computer potrebbe:
+    + _memorizzare_ informazioni / recuperarne di _memorizzate_
+    + _interagire_ sulla rete con altri computer o persone
+
+- Come fa a sapere _cosa fare_? 
+    + il computer _esegue_ un __programma__ 
+        * $\approx$ _ricetta_, lista di _istruzioni_, per eseguire una _trasformazione_
+
+- Ogni trasformazione input—output risolve un __problema__ interessante
+    + es. calcolo del percorso
+    + es. visualizzazione di una pagina Web
+    + es. riproduzione di un video
+
+- I programmi sono _scritti_ da __persone__ esperte
+    + __informatica__ studia come _programmare_ problemi interessanti/_ricorrenti_
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+## L'apprendimento automatico
+
+- Ci sono dei problemi per cui è _difficile_ / impratico scrivere un programma
+    + es., in genere, il _riconoscimento_ di immagini o audio
+
+- È _difficile_ dare _istruzioni precise_ su come risolvere il problema
+    + perchè il problema stesso è _impreciso_ per sua natura
+
+> __Soluzione__: scrivere un programma che possa _imparare_ a _migliorare_ il suo funzionamento
+
++ questa è la base dell'__apprendimento automatico__, una delle branche più importanti dell'IA come scienza
+
+### Osservazioni
+
+1. Apprendere $\approx$ _migliorare_ (__non__ cambiare) il funzionamento di base di un programma
+    + se progettato per distinguere _mele_ da _pere_, non imparerà mai (da solo) a riconoscere _pesche_
+
+2. Le persone imparano _da altre persone_
+    + _da chi_ o _cosa_ apprendono le macchine?
+
+---
+
+## Apprendimento da Esempi
+
+{{< image src="supervised.png" width="80vw" >}}
+
+WIP
+
+---
+
+## Apprendimento per Rinforzo
+
+WIP
