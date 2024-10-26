@@ -576,21 +576,115 @@ In realtà l'IA può essere applicata in questi ambiti, ma solo per _efficientiz
 
 <br>
 
-4. \[2023\] __ChatGPT__ e altre tecnologie di IA aperte al _pubblico generale_
-    + <https://chatgpt.com/>
+4. \[2023\] __ChatGPT__ e altre tecnologie note come __large language models__ (LLM) aperte al _pubblico generale_
+    + <https://chatgpt.com/>, <https://copilot.microsoft.com/>
+
+
+![Concept di funzionamento degli LLM "as-a-Service"](./llm-concept.svg)
+
+Modello _"as-a-Service"_ $\approx$ l'IA sta nel cloud, vi si accede tramite Internet
+
+(il fornitore del servizio ptorebbe applicare _costi_ o avere altre forme di _tornaconto_)
+
+---
+
+## Tecnologia di riferimento: ChatGPT
 
 {{% multicol %}}
 {{% col class="col-4" %}}
 {{< image alt="Installa ChatGPT su Android" src="./playstore.png" link="https://play.google.com/store/search?q=chatgpt&c=apps&hl=it" >}}
 
-![Scansiona per installare ChatGPT su Android](./qr-install-chatgpt-android.svg)
+![QR code per installare ChatGPT su Android](./qr-install-chatgpt-android.svg)
+(scansiona per installare su Android)
 {{% /col %}}
 {{% col class="col-4" %}}
-{{< image alt="Visita ChatGPT sul tuo computer" src="./chatgpt-logo.png" link="https://chatgpt.com/" width="40vw" >}}
+Logo dell'app:
+{{< image alt="Visita ChatGPT sul tuo computer" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg" link="https://chatgpt.com/" width="40vw" >}}
+(clicca sul logo se sei dal PC o Mac)
 {{% /col %}}
 {{% col class="col-4" %}}
 {{< image alt="Installa ChatGPT su iOS" src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" link="https://apps.apple.com/it/app/chatgpt/id6448311069" height="128px" >}}
 
-![Scansiona per installare ChatGPT su Android](./qr-install-chatgpt-ios.svg)
+![QR code per installare ChatGPT su Android](./qr-install-chatgpt-ios.svg)
+(scansiona per installare su iOS)
 {{% /col %}}
 {{% /multicol %}}
+
+---
+
+## Tecnologia di riferimento: Copilot
+
+{{% multicol %}}
+{{% col class="col-4" %}}
+{{< image alt="Installa Copilot su Android" src="./playstore.png" link="https://play.google.com/store/apps/details?id=com.microsoft.copilot&hl=it" >}}
+
+![QR code per installare Copilot su Android](./qr-install-copilot-android.svg)
+(scansiona per installare su Android)
+{{% /col %}}
+{{% col class="col-4" %}}
+Logo dell'app:
+{{< image alt="Visita Copilot sul tuo computer" src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Microsoft_365_Copilot_Icon.svg" link="https://copilot.microsoft.com/" width="40vw" >}}
+(clicca sul logo se sei dal PC o Mac)
+{{% /col %}}
+{{% col class="col-4" %}}
+{{< image alt="Installa Copilot su iOS" src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" link="https://apps.apple.com/it/app/microsoft-copilot/id6472538445" height="128px" >}}
+
+![QR code per installare Copilot su Android](./qr-install-copilot-ios.svg)
+(scansiona per installare su iOS)
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{% section %}}
+
+## Casi d'Uso di GenAI: Motore di Ricerca
+
+### ChatGPT
+
+Prova ad avere una _conversazione_ su un tema di cui __sai già qualcosa__, ad esempio:
+
+1. `Come fare la carbonara?`
+1. `per quanto tempo devo cuocere la pasta?`
+1. `come fanno la carbonara in francia?`
+1. `mi sai dare qualche riferimento per la ricetta?` (menziona _nomi_ di siti Web, ma non mette _link_, a meno di _login_)
+1. `mi mostreresti una foto di come deve venire una carbonara fatta bene?` (genera _immagine_, previo _login_)
+
+<br>
+
+{{% fragment %}}
+{{< image src="./generated-carbonara.png" alt="./generated-carbonara.png" height="70vh" >}}
+{{% /fragment %}}
+
+---
+
+## Casi d'Uso di GenAI: Motore di Ricerca
+
+### Copilot
+
+Riprova la stessa conversazione di prima con _Copilot_:
+
+
+1. `Come fare la carbonara?`
+1. `per quanto tempo devo cuocere la pasta?`
+1. `come fanno la carbonara in francia?`
+1. `mi sai dare qualche riferimento per la ricetta?` (mette _link_ a siti _esistenti_)
+1. `mi mostreresti una foto di come deve venire una carbonara fatta bene?` (non genera immagini)
+
+{{% fragment %}}
+### Osservazioni
+
+- In generale, LLM rispondo alla query sulla base di ciò che hanno _precedentemente imaparato_
+- Copilot può accedere ad _Internet_, fare delle _ricerche_, e usare i risultati per costruire la risposta
+    + questo gli permette di _citare_ fonti dal Web
+- ChatGPT può fare la stessa cosa solo _previo login_
+- ChatGPT (previo login) è capace di _generare immagini_, Copilot no
+{{% /fragment %}}
+
+{{% /section %}}
+
+---
+
+## ChatGPT — Casi d'uso (pt. 2)
+
+### 
