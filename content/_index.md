@@ -19,6 +19,8 @@ outputs = ["Reveal"]
 
 ![Query "intelligenza artificiale" in data 2024-10-19 su DuckDuckGo mostra robot umanoidi](./search-ddg-ia.png)
 
+(sembrerebbe trattarsi di robot umanoidi)
+
 ---
 
 ## Sfatiamo alcuni miti
@@ -160,7 +162,7 @@ Dolores Abernathy di ["Westworld"](https://en.wikipedia.org/wiki/Westworld_(TV_s
 - nessun corpo: è un'entità virtuale
 - iper-razionale
 - inizialmente un mero assistente, fa poi delle scelte autonome che impattano la trama
-- accesso completo al Internet
+- accesso completo a Internet
 - capacità di guadagnare il ottenere di altre macchine
 
 ---
@@ -464,10 +466,131 @@ In realtà l'IA può essere applicata in questi ambiti, ma solo per _efficientiz
 
 {{< image src="supervised.png" width="80vw" >}}
 
-WIP
+1. __Allenamento__: gli umani forniscono _molti_ esempi _noti_ delle cose da riconoscere, la macchina impara da essi
+    + es. _foto_ di vari animali e rispettivi _nomi_
+
+2. __Risultato__: la macchina allenata sa riconoscere foto anche mai viste prima
+    + es. _nuova_ foto di un animale, la macchina dice il suo _nome_
+
+<!-- https://www.youtube.com/watch?v=9tLCFbupeOI -->
 
 ---
 
 ## Apprendimento per Rinforzo
 
-WIP
+{{< image src="reinforcement.jpg" width="80vw" >}}
+
+- __Allenamento__: la macchina riceve un _premio_ quando fa _bene_ e una _penalità_ quando fa male
+    + impara cosa è opportuno fare quando
+        * es. "per spegnere il _fuoco_, devo _prima_ prendere l'_acqua_"
+
+- __Risultato__: la macchina sa _cosa_ fare in _situazioni_ simili a quelle dell'allenamento
+    + __NB:__ funziona bene per operazioni dove le _azioni_ e _casistiche_ possibili sono _limitate_
+        * es. _video-giochi_, automazione industriale, etc.
+
+<!-- https://youtube.com/shorts/MUB-hFilF8o?si=w1u_U65YgxVOiJnq -->
+
+---
+
+# IA Generativa
+
+---
+
+## Verso l'IA Generativa
+
+### Alcuni grandi avanzamenti si sono verificati negli ultimi __10 anni__
+
+<br>
+
+1. \[~2010\] __Deep Learning__ (apprendimento profondo): ritorno in auge di tecniche basate su _reti neurali_
+    + maggiore flessibilità e potenza per _apprendimento automatico_ volto al _riconoscimento_
+    + ispirate al funzionamento del _cervello umano_
+
+    ![Rappresentazione grafica semplificata di una rete neurale convoluzionale](./neural-networks.gif)
+
+---
+
+## Verso l'IA Generativa
+
+### Alcuni grandi avanzamenti si sono verificati negli ultimi __10 anni__
+
+<br>
+
+2. \[~2015\] __Generative Adversarial Networks__ (GAN, reti generative avversarie): capacità di _generare_ contenuti _realistici_
+    + es. <https://thispersondoesnotexist.com/>
+    
+![This Person Does Not Exist](https://thispersondoesnotexist.com/)
+(esempio di GAN che genera volti umani realistici)
+
+---
+
+## Verso l'IA Generativa
+
+### Alcuni grandi avanzamenti si sono verificati negli ultimi __10 anni__
+
+<br>
+
+2. \[~2015\] sepre relativamente alle __GAN__: capacità di _variare lo stile_ di un contenuto
+    + es. implica capacità di _apprendere_ lo _stile_ di un'immagine e _applicarlo_ ad un'altra
+    + __NB__: il concetto di stile NON è esplicitamente definito, è una cosa _intuitiva_ che le GAN imparano a riconoscere e riprodurre
+
+![Esempi della stessa immagine a cui sono applicati stili diversi](./gan-picture-styles.jpg)
+
+(esempio di GAN che applica stili artistici diversi ad una stessa immagine)
+
+---
+
+## Verso l'IA Generativa
+
+### Alcuni grandi avanzamenti si sono verificati negli ultimi __10 anni__
+
+<br>
+
+2. \[~2015\] sepre relativamente alle __GAN__: capacità di _modificare_ un contenuto sull'esempio di un altro
+    + es. riprodurre la _posa_ di un volto con un _altro volto_
+        * __NB__: di nuovo, si evita di dover _definire_ cosa sia una _posa_, la macchina impara da sola
+    + es. _deep-fakes_: <https://www.youtube.com/watch?v=koYcqsebFDE>
+
+![Esempi di modifica della posa della Monnalisa](./gan-picture-editing.webp)
+
+(esempio di GAN che modifica la posa di un volto)
+
+---
+
+## Verso l'IA Generativa
+
+### Alcuni grandi avanzamenti si sono verificati negli ultimi __10 anni__
+
+3. \[~2020\] __Modelli fondazionali__: grosse _reti neurali_ che imparano ad _elaborare_, _"capire"_, e _produrre_ contenuti
+    + contenuti $\approx$ _testo_, _immagini_, _suoni_, etc.
+    + allenati su _grandi_ quantità di dati, e con _grandi_ risorse computazionali, a __fare un po' tutto__
+        - con l'idea di poterli poi specializzare per _compiti specifici_
+
+![Concept dei modelli fondazionali](./foundation-models.png)
+
+---
+
+## Verso l'IA Generativa
+
+### Alcuni grandi avanzamenti si sono verificati negli ultimi __10 anni__
+
+<br>
+
+4. \[2023\] __ChatGPT__ e altre tecnologie di IA aperte al _pubblico generale_
+    + <https://chatgpt.com/>
+
+{{% multicol %}}
+{{% col class="col-4" %}}
+{{< image alt="Installa ChatGPT su Android" src="./playstore.png" link="https://play.google.com/store/search?q=chatgpt&c=apps&hl=it" >}}
+
+![Scansiona per installare ChatGPT su Android](./qr-install-chatgpt-android.svg)
+{{% /col %}}
+{{% col class="col-4" %}}
+{{< image alt="Visita ChatGPT sul tuo computer" src="./chatgpt-logo.png" link="https://chatgpt.com/" width="40vw" >}}
+{{% /col %}}
+{{% col class="col-4" %}}
+{{< image alt="Installa ChatGPT su iOS" src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" link="https://apps.apple.com/it/app/chatgpt/id6448311069" height="128px" >}}
+
+![Scansiona per installare ChatGPT su Android](./qr-install-chatgpt-ios.svg)
+{{% /col %}}
+{{% /multicol %}}
