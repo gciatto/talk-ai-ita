@@ -31,6 +31,7 @@
 <h2 id="cosa-non-è-lia">Cosa (non) è l’IA?</h2>
 <p><a href="https://duckduckgo.com/?t=h_&amp;q=intelligenza+artificiale&amp;iax=images&amp;ia=images">https://duckduckgo.com/?t=h_&amp;q=intelligenza+artificiale&amp;iax=images&amp;ia=images</a></p>
 <p><img src="./search-ddg-ia.png" alt="Query “intelligenza artificiale” in data 2024-10-19 su DuckDuckGo mostra robot umanoidi"></p>
+<p>(sembrerebbe trattarsi di robot umanoidi)</p>
 </section><section>
 <h2 id="sfatiamo-alcuni-miti">Sfatiamo alcuni miti</h2>
 <ol>
@@ -225,7 +226,7 @@ $\approx$ le persone possono fare ciò che vogliono</p>
 <li>nessun corpo: è un’entità virtuale</li>
 <li>iper-razionale</li>
 <li>inizialmente un mero assistente, fa poi delle scelte autonome che impattano la trama</li>
-<li>accesso completo al Internet</li>
+<li>accesso completo a Internet</li>
 <li>capacità di guadagnare il ottenere di altre macchine</li>
 </ul>
 </section><section>
@@ -679,10 +680,159 @@ $\approx$ le persone possono fare ciò che vogliono</p>
 
 <img src="supervised.png" alt="" style="width: 80vw; max-width: 95vw; max-height: 80vh; object-fit: contain;">
 
-<p>WIP</p>
+<ol>
+<li>
+<p><strong>Allenamento</strong>: gli umani forniscono <em>molti</em> esempi <em>noti</em> delle cose da riconoscere, la macchina impara da essi</p>
+<ul>
+<li>es. <em>foto</em> di vari animali e rispettivi <em>nomi</em></li>
+</ul>
+</li>
+<li>
+<p><strong>Risultato</strong>: la macchina allenata sa riconoscere foto anche mai viste prima</p>
+<ul>
+<li>es. <em>nuova</em> foto di un animale, la macchina dice il suo <em>nome</em></li>
+</ul>
+</li>
+</ol>
+<!-- https://www.youtube.com/watch?v=9tLCFbupeOI -->
 </section><section>
 <h2 id="apprendimento-per-rinforzo">Apprendimento per Rinforzo</h2>
-<p>WIP</p>
+
+
+
+
+
+<img src="reinforcement.jpg" alt="" style="width: 80vw; max-width: 95vw; max-height: 80vh; object-fit: contain;">
+
+<ul>
+<li>
+<p><strong>Allenamento</strong>: la macchina riceve un <em>premio</em> quando fa <em>bene</em> e una <em>penalità</em> quando fa male</p>
+<ul>
+<li>impara cosa è opportuno fare quando
+<ul>
+<li>es. “per spegnere il <em>fuoco</em>, devo <em>prima</em> prendere l’<em>acqua</em>”</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Risultato</strong>: la macchina sa <em>cosa</em> fare in <em>situazioni</em> simili a quelle dell’allenamento</p>
+<ul>
+<li><strong>NB:</strong> funziona bene per operazioni dove le <em>azioni</em> e <em>casistiche</em> possibili sono <em>limitate</em>
+<ul>
+<li>es. <em>video-giochi</em>, automazione industriale, etc.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!-- https://youtube.com/shorts/MUB-hFilF8o?si=w1u_U65YgxVOiJnq -->
+</section><section>
+<h1 id="ia-generativa">IA Generativa</h1>
+</section><section>
+<h2 id="verso-lia-generativa">Verso l’IA Generativa</h2>
+<h3 id="alcuni-grandi-avanzamenti-si-sono-verificati-negli-ultimi-__10-anni__">Alcuni grandi avanzamenti si sono verificati negli ultimi <strong>10 anni</strong></h3>
+<br>
+<ol>
+<li>
+<p>[~2010] <strong>Deep Learning</strong> (apprendimento profondo): ritorno in auge di tecniche basate su <em>reti neurali</em></p>
+<ul>
+<li>maggiore flessibilità e potenza per <em>apprendimento automatico</em> volto al <em>riconoscimento</em></li>
+<li>ispirate al funzionamento del <em>cervello umano</em></li>
+</ul>
+<p><img src="./neural-networks.gif" alt="Rappresentazione grafica semplificata di una rete neurale convoluzionale"></p>
+</li>
+</ol>
+</section><section>
+<h2 id="verso-lia-generativa-1">Verso l’IA Generativa</h2>
+<h3 id="alcuni-grandi-avanzamenti-si-sono-verificati-negli-ultimi-__10-anni__-1">Alcuni grandi avanzamenti si sono verificati negli ultimi <strong>10 anni</strong></h3>
+<br>
+<ol start="2">
+<li>[~2015] <strong>Generative Adversarial Networks</strong> (GAN, reti generative avversarie): capacità di <em>generare</em> contenuti <em>realistici</em>
+<ul>
+<li>es. <a href="https://thispersondoesnotexist.com/">https://thispersondoesnotexist.com/</a></li>
+</ul>
+</li>
+</ol>
+<p><img src="https://thispersondoesnotexist.com/" alt="This Person Does Not Exist">
+(esempio di GAN che genera volti umani realistici)</p>
+</section><section>
+<h2 id="verso-lia-generativa-2">Verso l’IA Generativa</h2>
+<h3 id="alcuni-grandi-avanzamenti-si-sono-verificati-negli-ultimi-__10-anni__-2">Alcuni grandi avanzamenti si sono verificati negli ultimi <strong>10 anni</strong></h3>
+<br>
+<ol start="2">
+<li>[~2015] sepre relativamente alle <strong>GAN</strong>: capacità di <em>variare lo stile</em> di un contenuto
+<ul>
+<li>es. implica capacità di <em>apprendere</em> lo <em>stile</em> di un’immagine e <em>applicarlo</em> ad un’altra</li>
+<li><strong>NB</strong>: il concetto di stile NON è esplicitamente definito, è una cosa <em>intuitiva</em> che le GAN imparano a riconoscere e riprodurre</li>
+</ul>
+</li>
+</ol>
+<p><img src="./gan-picture-styles.jpg" alt="Esempi della stessa immagine a cui sono applicati stili diversi"></p>
+<p>(esempio di GAN che applica stili artistici diversi ad una stessa immagine)</p>
+</section><section>
+<h2 id="verso-lia-generativa-3">Verso l’IA Generativa</h2>
+<h3 id="alcuni-grandi-avanzamenti-si-sono-verificati-negli-ultimi-__10-anni__-3">Alcuni grandi avanzamenti si sono verificati negli ultimi <strong>10 anni</strong></h3>
+<br>
+<ol start="2">
+<li>[~2015] sepre relativamente alle <strong>GAN</strong>: capacità di <em>modificare</em> un contenuto sull’esempio di un altro
+<ul>
+<li>es. riprodurre la <em>posa</em> di un volto con un <em>altro volto</em>
+<ul>
+<li><strong>NB</strong>: di nuovo, si evita di dover <em>definire</em> cosa sia una <em>posa</em>, la macchina impara da sola</li>
+</ul>
+</li>
+<li>es. <em>deep-fakes</em>: <a href="https://www.youtube.com/watch?v=koYcqsebFDE">https://www.youtube.com/watch?v=koYcqsebFDE</a></li>
+</ul>
+</li>
+</ol>
+<p><img src="./gan-picture-editing.webp" alt="Esempi di modifica della posa della Monnalisa"></p>
+<p>(esempio di GAN che modifica la posa di un volto)</p>
+</section><section>
+<h2 id="verso-lia-generativa-4">Verso l’IA Generativa</h2>
+<h3 id="alcuni-grandi-avanzamenti-si-sono-verificati-negli-ultimi-__10-anni__-4">Alcuni grandi avanzamenti si sono verificati negli ultimi <strong>10 anni</strong></h3>
+<ol start="3">
+<li>[~2020] <strong>Modelli fondazionali</strong>: grosse <em>reti neurali</em> che imparano ad <em>elaborare</em>, <em>“capire”</em>, e <em>produrre</em> contenuti
+<ul>
+<li>contenuti $\approx$ <em>testo</em>, <em>immagini</em>, <em>suoni</em>, etc.</li>
+<li>allenati su <em>grandi</em> quantità di dati, e con <em>grandi</em> risorse computazionali, a <strong>fare un po’ tutto</strong>
+<ul>
+<li>con l’idea di poterli poi specializzare per <em>compiti specifici</em></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p><img src="./foundation-models.png" alt="Concept dei modelli fondazionali"></p>
+</section><section>
+<h2 id="verso-lia-generativa-5">Verso l’IA Generativa</h2>
+<h3 id="alcuni-grandi-avanzamenti-si-sono-verificati-negli-ultimi-__10-anni__-5">Alcuni grandi avanzamenti si sono verificati negli ultimi <strong>10 anni</strong></h3>
+<br>
+<ol start="4">
+<li>[2023] <strong>ChatGPT</strong> e altre tecnologie di IA aperte al <em>pubblico generale</em>
+<ul>
+<li><a href="https://chatgpt.com/">https://chatgpt.com/</a></li>
+</ul>
+</li>
+</ol>
+
+<div class="container w-100 m-0 p-0">
+    <div class="row "><div class="col col-4"><a href="https://play.google.com/store/search?q=chatgpt&amp;c=apps&amp;hl=it">
+<img src="./playstore.png" alt="Installa ChatGPT su Android" style="max-width: 95vw; max-height: 80vh; object-fit: contain;">
+</a>
+<p><img src="./qr-install-chatgpt-android.svg" alt="Scansiona per installare ChatGPT su Android"></p>
+</div>
+<div class="col col-4"><a href="https://chatgpt.com/">
+<img src="./chatgpt-logo.png" alt="Visita ChatGPT sul tuo computer" style="width: 40vw; max-width: 95vw; max-height: 80vh; object-fit: contain;">
+</a>
+</div>
+<div class="col col-4"><a href="https://apps.apple.com/it/app/chatgpt/id6448311069">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" alt="Installa ChatGPT su iOS" style="height: 128px; max-width: 95vw; max-height: 80vh; object-fit: contain;">
+</a>
+<p><img src="./qr-install-chatgpt-ios.svg" alt="Scansiona per installare ChatGPT su Android"></p>
+</div>
+</div>
+</div>
 </section>
 
   
