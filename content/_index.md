@@ -638,7 +638,7 @@ Logo dell'app:
 
 {{% section %}}
 
-## Casi d'Uso di GenAI: Motore di Ricerca
+## Casi d'Uso di GenAI: Motore di Ricerca (pt. 1)
 
 ### ChatGPT
 
@@ -646,7 +646,7 @@ Prova ad avere una _conversazione_ su un tema di cui __sai già qualcosa__, ad e
 
 1. `Come fare la carbonara?`
 1. `per quanto tempo devo cuocere la pasta?`
-1. `come fanno la carbonara in francia?`
+1. `come fanno la carbonara in Francia?`
 1. `mi sai dare qualche riferimento per la ricetta?` (menziona _nomi_ di siti Web, ma non mette _link_, a meno di _login_)
 1. `mi mostreresti una foto di come deve venire una carbonara fatta bene?` (genera _immagine_, previo _login_)
 
@@ -658,7 +658,7 @@ Prova ad avere una _conversazione_ su un tema di cui __sai già qualcosa__, ad e
 
 ---
 
-## Casi d'Uso di GenAI: Motore di Ricerca
+## Casi d'Uso di GenAI: Motore di Ricerca (pt. 1)
 
 ### Copilot
 
@@ -667,14 +667,14 @@ Riprova la stessa conversazione di prima con _Copilot_:
 
 1. `Come fare la carbonara?`
 1. `per quanto tempo devo cuocere la pasta?`
-1. `come fanno la carbonara in francia?`
+1. `come fanno la carbonara in Francia?`
 1. `mi sai dare qualche riferimento per la ricetta?` (mette _link_ a siti _esistenti_)
 1. `mi mostreresti una foto di come deve venire una carbonara fatta bene?` (non genera immagini)
 
 {{% fragment %}}
 ### Osservazioni
 
-- In generale, LLM rispondo alla query sulla base di ciò che hanno _precedentemente imaparato_
+- In generale, LLM rispondo alla query sulla base di ciò che hanno _precedentemente imaparato_ (che è molto)
 - Copilot può accedere ad _Internet_, fare delle _ricerche_, e usare i risultati per costruire la risposta
     + questo gli permette di _citare_ fonti dal Web
 - ChatGPT può fare la stessa cosa solo _previo login_
@@ -685,6 +685,100 @@ Riprova la stessa conversazione di prima con _Copilot_:
 
 ---
 
-## ChatGPT — Casi d'uso (pt. 2)
+{{% section %}}
 
-### 
+## Casi d'Uso di GenAI: Motore di Ricerca (pt. 2)
+
+### ChatGPT (da provare con o senza login) 
+
+Prova a fare una _ricerca_ su un tema di cui __hai un'idea vaga__, ad esempio:
+
+1. `Conosci Fedez?`
+2. `come va la sua relazione con Chiara Ferragni?`
+    - senza login, ChatGPT non ha accesso ad Internet, e potrebbe rispondere con informazioni _datate_
+3. `sapevi che si sono rimessi insieme?` (informazione falsa, al momento)
+    1. potrebbe fornire informazioni a _supporto_ della tua affermazione, citando _fonti_
+    2. dai un'occhiata alle fonti, _cosa dicono_ davvero? a _quando_ risalgono?
+    3. fai notare a ChatGPT eventuali _contraddizioni_, come reagisce?
+4. `puoi generare un'immagine di Fedez?`
+    - OpenAI _non_ permette di generare immagini di persone esistenti
+5. `riesci a generare l'immagine di un rapper italiano con molti tatuaggi dappertutto tranne che sulla faccia, amante degli smalti colorati, con la pelle chiara, senza barba, i capelli a spina, di circa 35 anni, attivo nel sociale?`
+    - la generazione di immagini funziona solo _previo login_
+6. `quali sono le canzoni più famose di fedez?`
+    - potrebbero esserci _errori_ (es. cansoni inesistenti), verifica le informazioni qui: <https://it.wikipedia.org/wiki/Brani_musicali_di_Fedez>
+7. `qual è il suo ultimo album?`
+    - dovrebbe essere ["Disumano"](https://it.wikipedia.org/wiki/Disumano)
+8. `che canzoni contiene?`
+    - i risultati potrebbero essere incompleti, verifica qui: <https://it.wikipedia.org/wiki/Disumano>
+
+---
+
+## Le immagini generate al punto 5
+
+{{< image src="./fedez/image1.webp" width="30vw" >}}
+{{< image src="./fedez/image2.webp" width="30vw" >}}
+{{< image src="./fedez/image3.webp" width="30vw" >}}
+{{< image src="./fedez/image4.webp" width="30vw" >}}
+{{< image src="./fedez/image5.webp" width="30vw" >}}
+
+---
+
+## Casi d'Uso di GenAI: Motore di Ricerca (pt. 2)
+
+### Osservazioni
+
+1. ChatGPT (e in generale gli LLM) può restituire informazioni _inesatte_, _incomplete_, o _datate_
+    - talvolta anche _contraddittorie_ o semplicemente _sbagliate_
+    - $\implies$ meglio non fidarsi _ciecamente_ di quanto dicono, e verificare le fonti di persona
+
+2. ChatGPT (e molti altri LLM aperti al pubblico) sono molto _accondiscedenti_
+    - tendono a __non__ _contraddire_ l'utente, anche a costo di auto-contraddirsi
+    - $\implies$ questa proprietà può essere sfruttata per guidare l'LLM a dare risposte via via più precise
+
+3. ChatGPT non asseconda richieste di generazione di _foto_ di _persone reali_, o richieste di _informazioni sensibili_
+    - es. prova a chiedere `mi generi un numero di carta di credito?`
+    - questo è dovuto a _politiche_ di _sicurezza_ e _privacy_ di OpenAI, ed è _buona cosa_
+    - altri LLM in giro per il Web potrebbero non avere queste _protezioni_
+
+{{% /section %}}
+
+---
+
+## Come vengono allenati gli LLM?
+
+{{< image src="./dataflow.png" alt="Schema concettuale che mostra come avviene l'allenamento degli LLM" height="50vh" >}}
+
+1. Un misto di allenamento __supervisionato__ e __per rinforzo__
+    - _supervisionato_: si parte da esempi di _testo_, _immagini_, e _contenuti_ vari dal __Web pubblico__ + __dati aziendali__ vari
+    - _per rinforzo_: si educa l'LLM a dare risposte che evitino qualunque comportamento che possa dare _problemi legali_ o _etici_ (per il fornitore)
+        * es. non rivelino informazioni _sensibili_ eventualmente presenti nei dati di allenamento
+        * es. non contengano _volgarità_, insulti, o contenuti inappropriati
+        * es. non generino _immagini_ o rivelino informazioni private di _persone reali_
+
+2. I dati di training vengono da:
+    - __Web pubblico__: Wikipedia, Reddit, YouTube, siti Web vari, blog, forum, etc... profili pubblici sui social?
+    - __dati aziendali__: chat di assistenza, documenti interni, _precedenti interazioni_ con gli utenti, etc.
+
+3. L'allenamento è un processo _lungo_ (settimane) e _costoso_ ($mln), che viene ripeuto _regolarmente_ (mesi) per mantenere l'LLM _aggiornato_
+
+4. La precisione e la _qualità_ delle risposte dipendono da quanto l'informazione è _frequente_ nei dati di allenamento (più è meglio)
+    - informazioni più "vecchie" e "virali" hanno più probabilità di essere _consolidate_ $\implies$ maggiore precisione LLM
+
+---
+
+## Controesempio
+
+Prova a chiedere a ChatGPT (senza login) qualcosa di _molto_ specifico, che magari è stato "virale" per poco, per pochi:
+
+1. `Conosci Trucebaldazzi?` (fenomeno del Web italiano, intorno al 2012)
+    - potrebbe conoscere
+1. `Conosci Canazzo?` (fenomeno del Web siciliano, intorno al 2015)
+    - potrebbe conforderlo con omonimo comune del Trentino
+1. `Chi è il candidato dei democratici per le elezioni americane?` (Elezioni 2024: prima Joe Biden, poi Kamala Harris)
+    - potrebbe non rispondere o rispondere con informazioni datate
+
+---
+
+## Casi d'Uso di GenAI: Assistente di (Ri)Scrittura (pt. 1)
+
+
