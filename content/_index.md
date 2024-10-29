@@ -157,7 +157,7 @@ Dolores Abernathy di ["Westworld"](https://en.wikipedia.org/wiki/Westworld_(TV_s
 
 [J.A.R.V.I.S.](https://it.wikipedia.org/wiki/J.A.R.V.I.S.) di IronMan
 
-{{< image alt="Rappresentazione grafica di JARVIS" src="./jarvis.png" >}}
+{{< image alt="Rappresentazione grafica di JARVIS" src="./jarvis.png" height="60vh" >}}
 
 - nessun corpo: è un'entità virtuale
 - iper-razionale
@@ -234,7 +234,7 @@ Rehoboam di [Westworld 3](https://it.wikipedia.org/wiki/Episodi_di_Westworld_-_D
 
 Traduzione automatica _di testo_ — Es. [Google Translate](https://translate.google.it/?hl=it&sl=it&tl=en) 
 
-{{< image alt="Interfaccia di Google Translate" src="./google-translate.png" link="https://translate.google.it/?hl=it&sl=it&tl=en&text=apelle%20figlio%20di%20apollo%20fece%20una%20palla%20di%20pelle%20di%20pollo%20e%20tutti%20i%20pesci%20vennero%20a%20galla%20per%20vedere%20la%20palla%20di%20pelle%20di%20pollo%20fatta%20da%20apelle%20figlio%20di%20apollo&op=translate" >}}
+{{< image alt="Interfaccia di Google Translate" src="./google-translate.png" link="https://translate.google.it/?hl=it&sl=it&tl=en&text=apelle%20figlio%20di%20apollo%20fece%20una%20palla%20di%20pelle%20di%20pollo%20e%20tutti%20i%20pesci%20vennero%20a%20galla%20per%20vedere%20la%20palla%20di%20pelle%20di%20pollo%20fatta%20da%20apelle%20figlio%20di%20apollo&op=translate" height="60vh" >}}
 
 - include anche _Text-to-Speech_ (generazione di audio "parlato" da testo)
 
@@ -244,7 +244,7 @@ Traduzione automatica _di testo_ — Es. [Google Translate](https://translate.go
 
 Traduzione automatica _di immagini_ — Es. [Google Translate](https://translate.google.it/?sl=en&tl=it&op=images) 
 
-{{< image alt="Interfaccia di Google Translate" src="./google-translate-image.png" >}}
+{{< image alt="Interfaccia di Google Translate" src="./google-translate-image.png" height="60vh" >}}
 
 - include capacità di _riconoscimento_ e _localizzazione_ di testo in immagini
 - include capacità di _traduzione_ di testo in immagini
@@ -256,7 +256,7 @@ Traduzione automatica _di immagini_ — Es. [Google Translate](https://translate
 
 "Filtri" dei social network — Es. [Instagram](https://www.instagram.com/)
 
-{{< image alt="Interfaccia di Instagram" src="./instagram-filters.jpg" >}} 
+{{< image alt="Interfaccia di Instagram" src="./instagram-filters.jpg" height="60vh" >}} 
 
 - include capacità di _riconoscere la posa_ e _l'orientamento_ del viso
 - include capacità di _modificare_ immagini predefinite e orientarle rispetto al viso
@@ -267,9 +267,9 @@ Traduzione automatica _di immagini_ — Es. [Google Translate](https://translate
 
 Riconoscimento di immagini — Es. analisi del traffico
 
-{{< image src="./image-recognition-1.avif" width="45vw" >}}
-{{< image src="./image-recognition-2.webp" width="45vw" >}}
-{{< image src="./image-recognition-3.png" >}} 
+{{< image src="./image-recognition-1.avif" width="30vw" >}}
+{{< image src="./image-recognition-2.webp" width="30vw" >}}
+{{< image src="./image-recognition-3.png" width="30vw" >}} 
 
 - include capacità di _riconoscere_ e _localizzare_ oggetti in immagini
 - sembra una IA "unica", ma in realtà ogni IA è specializzata su un gruppo di oggetti
@@ -294,7 +294,7 @@ Riconoscimento di immagini — Es. autenticazione con volto
 
 Riconoscimento di immagini — Es. di impronte digitali
 
-{{< image src="./fingerprints.png" >}}
+{{< image src="./fingerprints.png" height="60vh" >}}
 
 - riconosce _solo_ impronte digitali, e le _distingue_ tra loro
 - sapendo che l'immagine è un'impronta, si può aumentare la precisione del riconoscimento, sfruttando le _minuzione tipiche_
@@ -307,7 +307,7 @@ Riconoscimento di immagini — Es. di impronte digitali
 
 Riconoscimento di immagini — Es. di caratteri scritti a mano
 
-{{< image src="./hwr-1.jpg" >}} 
+{{< image src="./hwr-1.jpg" height="60vh" >}} 
 [esempio interattivo qui](https://shapecatcher.com/)
 
 - molto difficile riconoscere _intero testo_ scritto a mano
@@ -320,7 +320,7 @@ Riconoscimento di immagini — Es. di caratteri scritti a mano
 
 Calcolo di percorsi — Es. [Google Maps](https://www.google.it/maps)
 
-{{< image src="./google-maps.png" link="https://www.google.it/maps/dir/Cesena,+FC/47019+Tredozio+FC/@44.2020717,11.8303411,11z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x132ca4d41ed493c1:0xbee0ab1075577a47!2m2!1d12.2464292!2d44.1396438!1m5!1m1!1s0x132b6a8d8b16349b:0x89b559ffb27df3de!2m2!1d11.7438477!2d44.0792596!3e0?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" >}}
+{{< image src="./google-maps.png" link="https://www.google.it/maps/dir/Cesena,+FC/47019+Tredozio+FC/@44.2020717,11.8303411,11z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x132ca4d41ed493c1:0xbee0ab1075577a47!2m2!1d12.2464292!2d44.1396438!1m5!1m1!1s0x132b6a8d8b16349b:0x89b559ffb27df3de!2m2!1d11.7438477!2d44.0792596!3e0?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" height="60vh" >}}
 
 - attività molto consolidata, ma è tra i primi esempi di IA nei libri di testo
 - include capacità di _calcolare_ il percorso migliore tra due punti
@@ -332,7 +332,7 @@ Calcolo di percorsi — Es. [Google Maps](https://www.google.it/maps)
 
 Calcolo di percorsi — Es. _Non-Playing Characters_ (NPC, Personaggi non giocanti) nei videogiochi
 
-{{< image src="./a-star2.gif" width="80vw" >}}
+{{< image src="./a-star2.gif" height="60vh" >}}
 [esempio interattivo qui](https://amarillion.github.io/helixgraph/examples/d3/)
 
 - utile per far muovere i personaggi dei videogiochi in modo _realistico_ verso una destinazione
@@ -344,7 +344,7 @@ Calcolo di percorsi — Es. _Non-Playing Characters_ (NPC, Personaggi non giocan
 
 Riconoscimento di _suoni_ — Es. [Shazam](https://www.shazam.com/)
 
-{{< image src="./shazam.webp" >}}
+{{< image src="./shazam.webp" height="70vh" >}}
 
 - riconosce canzoni e brani musicali da brevi estratti audio
 
@@ -412,7 +412,7 @@ In realtà l'IA può essere applicata in questi ambiti, ma solo per _efficientiz
 
 {{% multicol %}}
 {{% col class="col-5" %}}
-{{< image alt="Rappresentazione grafica del ruolo del computer nell'elaborazione dell'informazione" src="computer-science.svg" width="50vw" >}}
+{{< image alt="Rappresentazione grafica del ruolo del computer nell'elaborazione dell'informazione" src="computer-science.svg" width="100%" >}}
 {{% /col %}}
 {{% col class="col-7" %}}
 - Il _computer_ **transforma** _dati_ di _input_ in dati di _output_
@@ -464,7 +464,7 @@ In realtà l'IA può essere applicata in questi ambiti, ma solo per _efficientiz
 
 ## Apprendimento da Esempi
 
-{{< image src="supervised.png" width="80vw" >}}
+{{< image src="supervised.png" height="60vh"  >}}
 
 1. __Allenamento__: gli umani forniscono _molti_ esempi _noti_ delle cose da riconoscere, la macchina impara da essi
     + es. _foto_ di vari animali e rispettivi _nomi_
@@ -478,7 +478,7 @@ In realtà l'IA può essere applicata in questi ambiti, ma solo per _efficientiz
 
 ## Apprendimento per Rinforzo
 
-{{< image src="reinforcement.jpg" width="80vw" >}}
+{{< image src="reinforcement.jpg" height="60vh" >}}
 
 - __Allenamento__: la macchina riceve un _premio_ quando fa _bene_ e una _penalità_ quando fa male
     + impara cosa è opportuno fare quando
@@ -599,7 +599,7 @@ Modello _"as-a-Service"_ $\approx$ l'IA sta nel cloud, vi si accede tramite Inte
 {{% /col %}}
 {{% col class="col-4" %}}
 Logo dell'app:
-{{< image alt="Visita ChatGPT sul tuo computer" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg" link="https://chatgpt.com/" width="40vw" >}}
+{{< image alt="Visita ChatGPT sul tuo computer" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg" link="https://chatgpt.com/" width="100%" >}}
 (clicca sul logo se sei dal PC o Mac)
 {{% /col %}}
 {{% col class="col-4" %}}
@@ -623,7 +623,7 @@ Logo dell'app:
 {{% /col %}}
 {{% col class="col-4" %}}
 Logo dell'app:
-{{< image alt="Visita Copilot sul tuo computer" src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Microsoft_365_Copilot_Icon.svg" link="https://copilot.microsoft.com/" width="40vw" >}}
+{{< image alt="Visita Copilot sul tuo computer" src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Microsoft_365_Copilot_Icon.svg" link="https://copilot.microsoft.com/" width="100%" >}}
 (clicca sul logo se sei dal PC o Mac)
 {{% /col %}}
 {{% col class="col-4" %}}
@@ -653,7 +653,7 @@ Prova ad avere una _conversazione_ su un tema di cui __sai già qualcosa__, ad e
 <br>
 
 {{% fragment %}}
-{{< image src="./generated-carbonara.png" alt="./generated-carbonara.png" height="70vh" >}}
+{{< image src="./generated-carbonara.png" alt="./generated-carbonara.png" height="50vh" >}}
 {{% /fragment %}}
 
 ---
@@ -715,11 +715,11 @@ Prova a fare una _ricerca_ su un tema di cui __hai un'idea vaga__, ad esempio:
 
 ## Le immagini generate al punto 5
 
-{{< image src="./fedez/image1.webp" width="30vw" >}}
-{{< image src="./fedez/image2.webp" width="30vw" >}}
-{{< image src="./fedez/image3.webp" width="30vw" >}}
-{{< image src="./fedez/image4.webp" width="30vw" >}}
-{{< image src="./fedez/image5.webp" width="30vw" >}}
+{{< image src="./fedez/image1.webp" height="33vh" >}}
+{{< image src="./fedez/image2.webp" height="33vh" >}}
+{{< image src="./fedez/image3.webp" height="33vh" >}}
+{{< image src="./fedez/image4.webp" height="33vh" >}}
+{{< image src="./fedez/image5.webp" height="33vh" >}}
 
 ---
 
@@ -746,7 +746,7 @@ Prova a fare una _ricerca_ su un tema di cui __hai un'idea vaga__, ad esempio:
 
 ## Come vengono allenati gli LLM?
 
-{{< image src="./dataflow.png" alt="Schema concettuale che mostra come avviene l'allenamento degli LLM" height="50vh" >}}
+{{< image src="./dataflow.png" alt="Schema concettuale che mostra come avviene l'allenamento degli LLM" height="35vh" >}}
 
 1. Un misto di allenamento __supervisionato__ e __per rinforzo__
     - _supervisionato_: si parte da esempi di _testo_, _immagini_, e _contenuti_ vari dal __Web pubblico__ + __dati aziendali__ vari
