@@ -640,7 +640,8 @@ $\approx$ le persone possono fare ciò che vogliono</p>
 <li>
 <p>Ci sono dei problemi per cui è <em>difficile</em> / impratico scrivere un programma</p>
 <ul>
-<li>es., in genere, il <em>riconoscimento</em> di immagini o audio</li>
+<li>es., in genere, il <em>riconoscimento</em> di immagini, audio</li>
+<li>es., es. il <em>riconoscimento</em> di scrittura “a mano”</li>
 </ul>
 </li>
 <li>
@@ -650,13 +651,18 @@ $\approx$ le persone possono fare ciò che vogliono</p>
 </ul>
 </li>
 </ul>
+<p><img src="./drawing-letters.jpg" alt="Esempio di problema difficile da codificare: riconoscimento/scrittura di lettere"></p>
+</section><section>
 <blockquote>
-<p><strong>Soluzione</strong>: scrivere un programma che possa <em>imparare</em> a <em>migliorare</em> il suo funzionamento</p>
+<p><strong>Soluzione</strong>: scrivere un programma che possa <strong>imparare</strong> a <em>migliorare</em> il suo stesso funzionamento</p>
 </blockquote>
 <ul>
 <li>questa è la base dell’<strong>apprendimento automatico</strong>, una delle branche più importanti dell’IA come scienza</li>
 </ul>
-<h3 id="osservazioni">Osservazioni</h3>
+
+
+<span class="fragment ">
+  <h3 id="osservazioni">Osservazioni</h3>
 <ol>
 <li>
 <p>Apprendere $\approx$ <em>migliorare</em> (<strong>non</strong> cambiare) il funzionamento di base di un programma</p>
@@ -671,6 +677,9 @@ $\approx$ le persone possono fare ciò che vogliono</p>
 </ul>
 </li>
 </ol>
+
+</span>
+
 </section><section>
 <h2 id="apprendimento-da-esempi">Apprendimento da Esempi</h2>
 
@@ -870,7 +879,7 @@ $\approx$ le persone possono fare ciò che vogliono</p>
 
 
 <section data-shortcode-section="">
-<h2 id="casi-duso-di-genai-motore-di-ricerca-pt-1">Casi d’Uso di GenAI: Motore di Ricerca (pt. 1)</h2>
+<h2 id="casi-duso-di-llm-motore-di-ricerca-pt-1">Casi d’Uso di LLM: Motore di Ricerca (pt. 1)</h2>
 <h3 id="chatgpt">ChatGPT</h3>
 <p>Prova ad avere una <em>conversazione</em> su un tema di cui <strong>sai già qualcosa</strong>, ad esempio:</p>
 <ol>
@@ -885,7 +894,7 @@ $\approx$ le persone possono fare ciò che vogliono</p>
   <img src="./generated-carbonara.png" alt="./generated-carbonara.png" style="height: 50vh; max-width: 95vw; max-height: 80vh; object-fit: contain;">
 </span>
 </section><section>
-<h2 id="casi-duso-di-genai-motore-di-ricerca-pt-1-1">Casi d’Uso di GenAI: Motore di Ricerca (pt. 1)</h2>
+<h2 id="casi-duso-di-llm-motore-di-ricerca-pt-1-1">Casi d’Uso di LLM: Motore di Ricerca (pt. 1)</h2>
 <h3 id="copilot">Copilot</h3>
 <p>Riprova la stessa conversazione di prima con <em>Copilot</em>:</p>
 <ol>
@@ -914,7 +923,7 @@ $\approx$ le persone possono fare ciò che vogliono</p>
 
 
 <section data-shortcode-section="">
-<h2 id="casi-duso-di-genai-motore-di-ricerca-pt-2">Casi d’Uso di GenAI: Motore di Ricerca (pt. 2)</h2>
+<h2 id="casi-duso-di-llm-motore-di-ricerca-pt-2">Casi d’Uso di LLM: Motore di Ricerca (pt. 2)</h2>
 <h3 id="chatgpt-da-provare-con-o-senza-login">ChatGPT (da provare con o senza login)</h3>
 <p>Prova a fare una <em>ricerca</em> su un tema di cui <strong>hai un’idea vaga</strong>, ad esempio:</p>
 <ol>
@@ -965,7 +974,7 @@ $\approx$ le persone possono fare ciò che vogliono</p>
 <img src="./fedez/image4.webp" alt="" style="height: 33vh; max-width: 95vw; max-height: 80vh; object-fit: contain;">
 <img src="./fedez/image5.webp" alt="" style="height: 33vh; max-width: 95vw; max-height: 80vh; object-fit: contain;">
 </section><section>
-<h2 id="casi-duso-di-genai-motore-di-ricerca-pt-2-1">Casi d’Uso di GenAI: Motore di Ricerca (pt. 2)</h2>
+<h2 id="casi-duso-di-llm-motore-di-ricerca-pt-2-1">Casi d’Uso di LLM: Motore di Ricerca (pt. 2)</h2>
 <h3 id="osservazioni">Osservazioni</h3>
 <ol>
 <li>
@@ -1054,7 +1063,283 @@ $\approx$ le persone possono fare ciò che vogliono</p>
 </li>
 </ol>
 </section><section>
-<h2 id="casi-duso-di-genai-assistente-di-riscrittura-pt-1">Casi d’Uso di GenAI: Assistente di (Ri)Scrittura (pt. 1)</h2>
+<h2 id="casi-duso-di-llm-motore-di-ricerca-pt-3">Casi d’Uso di LLM: Motore di Ricerca (pt. 3)</h2>
+<h3 id="ricerche-interattive-su-conoscenze-_consolidate_">Ricerche interattive su conoscenze <em>consolidate</em></h3>
+<p>Usiamo ChatGPT per una ricerca in <em>biologia</em>: il <strong>bioma</strong> desertico e la sua <strong>catena alimentare</strong> tipica</p>
+<ol>
+<li><code>in biologia, cos'è un bioma? cos'è un ecosistema? cos'è una catena alimentare?</code>
+<ul>
+<li><a href="https://it.wikipedia.org/wiki/Bioma">https://it.wikipedia.org/wiki/Bioma</a>
+<ul>
+<li>es. deserto, foresta tropicale, tundra, sava, etc.</li>
+</ul>
+</li>
+<li>la spiegazione potrebbe essere tecnica: meglio chiedere di <em>semplificare</em> o di spiegare “ad un bambino”</li>
+</ul>
+</li>
+<li><code>quali sono i principali biomi della Terra?</code></li>
+<li><code>parlami del bioma "deserto" dove lo trovo sul pianeta?</code></li>
+<li><code>che temperature ci sono nei deserti?</code></li>
+<li><code>quali sono la flora e fauna tipiche dei deserti?</code></li>
+<li><code>mi descrivi un ecosistema tipico del deserto?</code></li>
+<li><code>mi descrivi una catena alimentare tipica del deserto?</code></li>
+</ol>
+</section><section>
+<h2 id="casi-duso-di-llm-motore-di-ricerca-pt-3-1">Casi d’Uso di LLM: Motore di Ricerca (pt. 3)</h2>
+<h3 id="osservazioni">Osservazioni</h3>
+<ul>
+<li>
+<p>ChatGPT (e in generale gli LLM) possono rispondono <em>accuratamente</em> a domande per cui la conoscenza è <em>consolidata</em></p>
+</li>
+<li>
+<p>Si può partire da una <em>domanda generale</em>…</p>
+</li>
+<li>
+<p>… e poi chiedere <em>approfondimenti</em> ogni volta che si incontra un concetto nuovo</p>
+</li>
+<li>
+<p>Puoi considerare ChatGPT come l’amico <em>“esperto”</em> che ti spiega le cose in modo <em>semplice</em> e <em>comprensibile</em>, a cui puoi fare anche domande di cui ti <em>vergogni</em></p>
+<ul>
+<li><strong>NB:</strong> dietro ChatGPT c’è un <em>algoritmo</em>, non un <em>essere umano</em>, quindi <em>non ti giudica</em> e <em>non si offende</em></li>
+<li><strong>NB:</strong> ChatGPT <strong>non</strong> è un <em>esperto</em> in <em>biologia</em>, né in altre materie $\implies$ può dire <strong>cose sbagliate</strong></li>
+</ul>
+</li>
+<li>
+<p>Sempre meglio <strong>ricontrollare</strong> le informazioni generate</p>
+</li>
+</ul>
+</section><section>
+<h2 id="casi-duso-di-llm-assistente-di-riscrittura-pt-1">Casi d’Uso di LLM: Assistente di (Ri)Scrittura (pt. 1)</h2>
+<h3 id="chatgpt-per-generare-testi">ChatGPT per generare testi</h3>
+<ol>
+<li>
+<p>Data una traccia, ChatGPT può <em>completarla</em> in modo <em>coerente</em> e <em>comprensibile</em></p>
+<ul>
+<li>es. <code>Scrivi un breve racconto che cominci così: «Davanti a me solo mare. Sopra di me solo il cielo. L’orizzonte una bianca linea lontana…»</code></li>
+<li>es. <code>Scrivi un breve racconto in cui avvenga un incontro con una creatura fantastica.</code></li>
+</ul>
+</li>
+<li>
+<p>Si può “regolare” la <em>lunghezza</em> del contenuto tramite la chat</p>
+<ul>
+<li>es. <code>più lungo</code>, <code>più corto</code>, <code>più dettagliato</code>, <code>più generico</code>, etc.</li>
+</ul>
+</li>
+<li>
+<p>Si può “regolare” il contenuto chiedendo di fare <em>piccole variazioni</em></p>
+<ul>
+<li>es. <code>cambia il nome del protagonista</code>, <code>cambia il luogo</code>, <code>cambia il genere</code>, etc.,</li>
+</ul>
+</li>
+<li>
+<p>Meglio fornire una <em>scaletta</em> che <em>guidi</em> la generazione di testo:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="nohighlight" data-noescape=""><span style="display:flex;"><span>Scrivi un breve racconto in cui avvenga un incontro con una creatura fantastica.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>- la storia parte da uno scenario normale, tipo il protagonista è a scuola e segue annoiato la lezione
+</span></span><span style="display:flex;"><span>- distratto da uno strano movimento nel cespuglio poco fuori la finestra decide di andare a vedere in ricreazione
+</span></span><span style="display:flex;"><span>- trova una scusa per non andare a giocare coi compagni a ricreazione
+</span></span><span style="display:flex;"><span>- di nascosto va a vedere nel cespuglio e trova uno strano passaggio che lo incuriosisce
+</span></span><span style="display:flex;"><span>- una lepre parlante lo attira dentro il passaggio
+</span></span><span style="display:flex;"><span>- il resto è sostanzialmente una rivisitazione di "alice nel paese delle meraviglie" ai giorni nostri
+</span></span></code></pre></div></li>
+</ol>
+</section><section>
+<h2 id="identificazione-di-testo-generato">Identificazione di testo generato</h2>
+<blockquote>
+<p>Così come esistono IA per generazione di testo, esisono anche IA per <em>identificazione</em> di testo generato</p>
+</blockquote>
+<p>Esempio: <a href="https://app.gptzero.me/app/ai-scan">https://app.gptzero.me/app/ai-scan</a></p>
+
+
+<span class="fragment ">
+  <h3 id="esempio-di-utilizzo">Esempio di utilizzo</h3>
+<ol>
+<li>
+<p>Prova a <em>copiare</em> e <em>incollare</em> il tema generato <strong>completamente</strong> da ChatGPT</p>
+<ul>
+<li>il sistema dovrebbe dirti che la <em>probabilità</em> che il testo sia generato da un LLM è <em>alta</em></li>
+</ul>
+</li>
+<li>
+<p>Prova a <em>copiare</em> e <em>incollare</em> il tema generato da ChatGPT a partire da una <strong>scaletta “originale”</strong></p>
+<ul>
+<li>il sistema dovrebbe dirti che la <em>probabilità</em> che il testo sia generato da un LLM è <em>media</em></li>
+</ul>
+</li>
+</ol>
+
+</span>
+
+
+
+<span class="fragment ">
+  <h3 id="considerazioni">Considerazioni</h3>
+<ul>
+<li>Le IA per generazione di testo migliorano col tempo, come pure quelle per identificare di testo generato</li>
+<li>Meglio <em>fornire una traccia</em> che affidarsi completamente a LLM per generare testo
+<ul>
+<li>così il controllo di <strong>cosa</strong> dire rimane in mano all’utente</li>
+</ul>
+</li>
+</ul>
+
+</span>
+
+</section><section>
+<h2 id="casi-duso-di-llm-assistente-di-riscrittura-pt-2">Casi d’Uso di LLM: Assistente di (Ri)Scrittura (pt. 2)</h2>
+<h3 id="chatgpt-come-assistente-al-ragionamento">ChatGPT come assistente al ragionamento</h3>
+<p>Posso usare ChatGPT per <em>ragionare</em> su un <em>argomento</em> che mi interessa, ad esempio:</p>
+<ol>
+<li>
+<p>Problema di <em>geometria</em>:
+<code>Il perimetro di un triangolo è di 224m e due lati misurano rispettivamente 60m e 73m. Calcola l'area del triangolo e la misura dell'altezza relativa al lato maggiore.</code></p>
+<ul>
+<li>area: <strong>2184m²</strong>, trovata tramite <a href="https://it.wikipedia.org/wiki/Formula_di_Erone">formula di Erone</a>,
+poi altezza: <strong>48m</strong> usando la formula dell’area del triangolo ($A = b \cdot h / 2$) al contrario ($h = 2\cdot A / b$)</li>
+</ul>
+</li>
+</ol>
+<p><img src="./geo-problem.svg" alt="Rappresentazione grafica di un triangolo rettangolo con i lati e l’altezza indicati"></p>
+
+
+<span class="fragment ">
+  <ol start="2">
+<li>Problema di <em>algebra</em>: <code>Dammi le soluzioni reali dell'equazione</code> $x^3 - 3x^2 - 3x  + 9 = 0$<code>. Spiega i passaggi.</code>
+<ul>
+<li>3 soluzioni: $x = 3$, $x = \pm \sqrt{3}$</li>
+</ul>
+</li>
+</ol>
+
+</span>
+
+</section><section>
+<h2 id="casi-duso-di-llm-assistente-di-riscrittura-pt-2-1">Casi d’Uso di LLM: Assistente di (Ri)Scrittura (pt. 2)</h2>
+<h3 id="chatgpt-come-assistente-al-ragionamento-1">ChatGPT come assistente al ragionamento</h3>
+<ol start="3">
+<li>
+<p>Problema di <em>ragionamento</em> logico:</p>
+<p><code>Deduci la coppia di numeri da scartare tra quelle di seguito proposte</code></p>
+<ul>
+<li><code>22:11</code>;</li>
+<li><code>11:01</code>;</li>
+<li><code>13:31</code>;</li>
+<li><code>31:13</code>;</li>
+<li><code>12:34</code>.</li>
+</ul>
+<p>la coppia da scartare è <strong>31:13</strong>, perchè è l’unica che non è un <em>orario</em> valido</p>
+</li>
+</ol>
+
+
+<span class="fragment ">
+  <ol start="4">
+<li>Riprova la domanda precedente con <em>diversi modelli</em> (previo login):
+<ul>
+<li>es. <code>GPT-4o</code>, <code>GPT-4o mini</code>, $\rightarrow$ <code>o1-mini</code> $\leftarrow$, <code>o1-preview</code></li>
+</ul>
+</li>
+</ol>
+
+</span>
+
+
+
+<span class="fragment ">
+  <h3 id="osservazioni">Osservazioni</h3>
+<ol>
+<li>
+<p>Modelli per la sola generazione di testo (<code>GPT-4o</code>, <code>GPT-4o mini</code>) potrebbero <em>fallire</em> nel capire il ragionamento</p>
+</li>
+<li>
+<p>Modelli per specifici per il ragionamento (<code>o1-mini</code>, <code>o1-preview</code>) potrebbero <em>capire</em> il ragionamento e <em>mostrarne</em> <strong>i passaggi</strong></p>
+<ul>
+<li>sostanzialmente, questi modelli impiegano l’approccio <a href="https://www.promptingguide.ai/it/techniques/cot">“Catena di Pensieri”</a></li>
+</ul>
+</li>
+</ol>
+
+</span>
+
+</section><section>
+<h2 id="funzionamento-di-base-di-un-llm">Funzionamento di base di un LLM</h2>
+<p><img src="./next-word-prediction-ita.png" alt="Predizione della prossima parola"></p>
+<ul>
+<li>Gli LLM hanno imparato a <strong>indovinare</strong> la <em>parola</em> successiva in un <em>testo</em> dato il <em>contesto</em> precedente
+<ul>
+<li>simile alla tastiera <em>predittiva</em> del cellulare, ma molto più <em>complessa</em> e <em>potente</em></li>
+</ul>
+</li>
+<li>In altre parole, gli LLM hanno appreso come usare il <strong>linguaggio naturale</strong></li>
+</ul>
+</section><section>
+<h2 id="linguaggio-e-ragionamento">Linguaggio e Ragionamento</h2>
+<ul>
+<li>
+<p>Il <strong>linguaggio naturale</strong> aiuta le persone a <em>comunicare</em></p>
+</li>
+<li>
+<p>Può essere usato per esprimere concetti <em>complessi</em> o <em>astratti</em></p>
+</li>
+<li>
+<p>Può essere usato per <em>ragionare</em> su <em>problemi</em> e <em>soluzioni</em></p>
+<ul>
+<li>tuttavia ammette <strong>imprecisioni</strong>, dovuti ad <em>ambiguità</em>, interpretazioni variabili, soggettività, etc.</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Il linugaggio naturale permette agli LLM di usare <strong>l’intuito</strong> nei <em>ragionamenti</em>, come gli umani
+<br> (quindi di <strong>sbagliare</strong> come gli umani)</p>
+</blockquote>
+<ul>
+<li>$\implies$ gli LLM possono risultare molto sicuri di sé, pur dicendo cose <em>sbagliate</em>, <em>imprecise</em>, o <em>inventate</em></li>
+</ul>
+</section><section>
+<h2 id="esempio-parole-inventate">Esempio: Parole inventate</h2>
+<p>Visitate il sito: <a href="https://www-thisworddoesnotexist-com.translate.goog/?_x_tr_sl=en&amp;_x_tr_tl=it&amp;_x_tr_hl=it&amp;_x_tr_pto=wapp">https://www.thisworddoesnotexist.com/</a></p>
+<p>genera parole <em>inventate</em> che sembrano <em>reali</em>, ad esempio:</p>
+
+
+
+
+
+<img src="./non-existing-word.png" alt="" style="max-width: 95vw; max-height: 80vh; object-fit: contain;">
+
+</section><section>
+<h2 id="casi-duso-di-llm-assistente-di-riscrittura-pt-3">Casi d’Uso di LLM: Assistente di (Ri)Scrittura (pt. 3)</h2>
+<h3 id="chatgpt-può-essere-usato-per-trovare-le-parole-giuste">ChatGPT può essere usato per trovare le parole giuste</h3>
+<p>Può aiutare a comunicare in modo <em>assertivo</em>, a partire da un contenuto scritto <em>di getto</em>.</p>
+<ol>
+<li>
+<p>Si può chiedere a ChatGPT cosa dire in una <em>situazione specifica</em></p>
+<ul>
+<li>es. <code>come posso dire a mia madre che non voglio più andare a trovare i miei parenti?</code></li>
+<li>es. <code>come posso dire a mio figlio che non può uscire con gli amici stasera?</code></li>
+<li>es. <code>come posso dire a mio capo che non posso fare straordinari stasera?</code></li>
+</ul>
+</li>
+<li>
+<p>Più informazioni di <em>contesto</em> si forniscono, più il risultato è <em>preciso</em> e <em>pertinente</em>:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="nohighlight" data-noescape=""><span style="display:flex;"><span>Il mio amico Roberto mi ha fatto una scenata di gelosia perchè Andrea è venuto a trovarmi. 
+</span></span><span style="display:flex;"><span>Roberto abita a Padova, Andrea in Francia, e io e Roberto ci eravamo organizzati per caso in un giorno estivo.
+</span></span><span style="display:flex;"><span>Roberto voleva vedere Bologna ed è passato a trovarmi. 
+</span></span><span style="display:flex;"><span>Andrea è offeso perchè non l'abbiamo incluso. 
+</span></span><span style="display:flex;"><span>Ce l'ha con Andrea che non ha allungato fino a Padova per trovarlo mentre è venuto da me. 
+</span></span><span style="display:flex;"><span>Come posso dirgli che la sua gelosia mi da fastidio e che dovrebbe smetterla?
+</span></span></code></pre></div><ul>
+<li>ChatGPT potrebbe dare suggerimenti su come impostare la comunicazione in maniera <em>assertiva</em> e <em>rispettosa</em>
+<ul>
+<li><strong>NB</strong>: ChatGPT non è un <em>terapeuta</em>, e non può sostituire un <em>professionista</em> della <em>comunicazione</em></li>
+<li><strong>NB</strong>: ChatGPT potrebbe <em>non</em> essere in grado di <em>risolvere</em> il problema, ma può <em>aiutare</em> a <em>comunicare</em> meglio</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Puoi anche chiedere: <code>mi suggerisci un esempio di messaggio?</code></p>
+</li>
+</ol>
 </section>
 
   
