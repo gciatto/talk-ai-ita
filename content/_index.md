@@ -443,15 +443,20 @@ In realtà l'IA può essere applicata in questi ambiti, ma solo per _efficientiz
 ## L'apprendimento automatico
 
 - Ci sono dei problemi per cui è _difficile_ / impratico scrivere un programma
-    + es., in genere, il _riconoscimento_ di immagini o audio
+    + es., in genere, il _riconoscimento_ di immagini, audio
+    + es., es. il _riconoscimento_ di scrittura "a mano"
 
 - È _difficile_ dare _istruzioni precise_ su come risolvere il problema
     + perchè il problema stesso è _impreciso_ per sua natura
 
-> __Soluzione__: scrivere un programma che possa _imparare_ a _migliorare_ il suo funzionamento
+![Esempio di problema difficile da codificare: riconoscimento/scrittura di lettere](./drawing-letters.jpg)
 
+---
+
+> __Soluzione__: scrivere un programma che possa __imparare__ a _migliorare_ il suo stesso funzionamento
 + questa è la base dell'__apprendimento automatico__, una delle branche più importanti dell'IA come scienza
 
+{{% fragment %}}
 ### Osservazioni
 
 1. Apprendere $\approx$ _migliorare_ (__non__ cambiare) il funzionamento di base di un programma
@@ -459,6 +464,7 @@ In realtà l'IA può essere applicata in questi ambiti, ma solo per _efficientiz
 
 2. Le persone imparano _da altre persone_
     + _da chi_ o _cosa_ apprendono le macchine?
+{{% /fragment %}}
 
 ---
 
@@ -638,7 +644,7 @@ Logo dell'app:
 
 {{% section %}}
 
-## Casi d'Uso di GenAI: Motore di Ricerca (pt. 1)
+## Casi d'Uso di LLM: Motore di Ricerca (pt. 1)
 
 ### ChatGPT
 
@@ -658,7 +664,7 @@ Prova ad avere una _conversazione_ su un tema di cui __sai già qualcosa__, ad e
 
 ---
 
-## Casi d'Uso di GenAI: Motore di Ricerca (pt. 1)
+## Casi d'Uso di LLM: Motore di Ricerca (pt. 1)
 
 ### Copilot
 
@@ -687,7 +693,7 @@ Riprova la stessa conversazione di prima con _Copilot_:
 
 {{% section %}}
 
-## Casi d'Uso di GenAI: Motore di Ricerca (pt. 2)
+## Casi d'Uso di LLM: Motore di Ricerca (pt. 2)
 
 ### ChatGPT (da provare con o senza login) 
 
@@ -723,7 +729,7 @@ Prova a fare una _ricerca_ su un tema di cui __hai un'idea vaga__, ad esempio:
 
 ---
 
-## Casi d'Uso di GenAI: Motore di Ricerca (pt. 2)
+## Casi d'Uso di LLM: Motore di Ricerca (pt. 2)
 
 ### Osservazioni
 
@@ -779,6 +785,211 @@ Prova a chiedere a ChatGPT (senza login) qualcosa di _molto_ specifico, che maga
 
 ---
 
-## Casi d'Uso di GenAI: Assistente di (Ri)Scrittura (pt. 1)
+## Casi d'Uso di LLM: Motore di Ricerca (pt. 3)
+
+### Ricerche interattive su conoscenze _consolidate_
+
+Usiamo ChatGPT per una ricerca in _biologia_: il __bioma__ desertico e la sua __catena alimentare__ tipica
+
+1. `in biologia, cos'è un bioma? cos'è un ecosistema? cos'è una catena alimentare?`
+    - <https://it.wikipedia.org/wiki/Bioma>
+        * es. deserto, foresta tropicale, tundra, sava, etc.
+    - la spiegazione potrebbe essere tecnica: meglio chiedere di _semplificare_ o di spiegare "ad un bambino"
+1. `quali sono i principali biomi della Terra?`
+1. `parlami del bioma "deserto" dove lo trovo sul pianeta?`
+1. `che temperature ci sono nei deserti?`
+1. `quali sono la flora e fauna tipiche dei deserti?`
+1. `mi descrivi un ecosistema tipico del deserto?`
+1. `mi descrivi una catena alimentare tipica del deserto?`
+
+---
+
+## Casi d'Uso di LLM: Motore di Ricerca (pt. 3)
+
+### Osservazioni
+
+- ChatGPT (e in generale gli LLM) possono rispondono _accuratamente_ a domande per cui la conoscenza è _consolidata_
+
+- Si può partire da una _domanda generale_...
+
+- ... e poi chiedere _approfondimenti_ ogni volta che si incontra un concetto nuovo
+
+- Puoi considerare ChatGPT come l'amico _"esperto"_ che ti spiega le cose in modo _semplice_ e _comprensibile_, a cui puoi fare anche domande di cui ti _vergogni_
+    * __NB:__ dietro ChatGPT c'è un _algoritmo_, non un _essere umano_, quindi _non ti giudica_ e _non si offende_
+    * __NB:__ ChatGPT __non__ è un _esperto_ in _biologia_, né in altre materie $\implies$ può dire __cose sbagliate__
+
+- Sempre meglio __ricontrollare__ le informazioni generate
+
+---
+
+## Casi d'Uso di LLM: Assistente di (Ri)Scrittura (pt. 1)
+
+### ChatGPT per generare testi
+
+1. Data una traccia, ChatGPT può _completarla_ in modo _coerente_ e _comprensibile_
+    * es. `Scrivi un breve racconto che cominci così: «Davanti a me solo mare. Sopra di me solo il cielo. L’orizzonte una bianca linea lontana…»`
+    * es. `Scrivi un breve racconto in cui avvenga un incontro con una creatura fantastica.`
+
+2. Si può "regolare" la _lunghezza_ del contenuto tramite la chat
+    * es. `più lungo`, `più corto`, `più dettagliato`, `più generico`, etc.
+
+3. Si può "regolare" il contenuto chiedendo di fare _piccole variazioni_
+    * es. `cambia il nome del protagonista`, `cambia il luogo`, `cambia il genere`, etc.,
+
+4. Meglio fornire una _scaletta_ che _guidi_ la generazione di testo:
+    ```plaintext
+    Scrivi un breve racconto in cui avvenga un incontro con una creatura fantastica.
+
+    - la storia parte da uno scenario normale, tipo il protagonista è a scuola e segue annoiato la lezione
+    - distratto da uno strano movimento nel cespuglio poco fuori la finestra decide di andare a vedere in ricreazione
+    - trova una scusa per non andare a giocare coi compagni a ricreazione
+    - di nascosto va a vedere nel cespuglio e trova uno strano passaggio che lo incuriosisce
+    - una lepre parlante lo attira dentro il passaggio
+    - il resto è sostanzialmente una rivisitazione di "alice nel paese delle meraviglie" ai giorni nostri
+    ```
+
+---
+
+## Identificazione di testo generato
+
+> Così come esistono IA per generazione di testo, esisono anche IA per _identificazione_ di testo generato
+
+Esempio: <https://app.gptzero.me/app/ai-scan>
+
+{{% fragment %}}
+### Esempio di utilizzo
+
+1. Prova a _copiare_ e _incollare_ il tema generato __completamente__ da ChatGPT
+    - il sistema dovrebbe dirti che la _probabilità_ che il testo sia generato da un LLM è _alta_
+
+2. Prova a _copiare_ e _incollare_ il tema generato da ChatGPT a partire da una __scaletta "originale"__
+    - il sistema dovrebbe dirti che la _probabilità_ che il testo sia generato da un LLM è _media_
+{{% /fragment %}}
+
+{{% fragment %}}
+### Considerazioni
+
+- Le IA per generazione di testo migliorano col tempo, come pure quelle per identificare di testo generato
+- Meglio _fornire una traccia_ che affidarsi completamente a LLM per generare testo
+    + così il controllo di __cosa__ dire rimane in mano all'utente
+{{% /fragment %}}
+
+---
+
+## Casi d'Uso di LLM: Assistente di (Ri)Scrittura (pt. 2)
+
+### ChatGPT come assistente al ragionamento
+
+Posso usare ChatGPT per _ragionare_ su un _argomento_ che mi interessa, ad esempio:
+
+1. Problema di _geometria_: 
+`Il perimetro di un triangolo è di 224m e due lati misurano rispettivamente 60m e 73m. Calcola l'area del triangolo e la misura dell'altezza relativa al lato maggiore.`
+    
+    - area: __2184m²__, trovata tramite [formula di Erone](https://it.wikipedia.org/wiki/Formula_di_Erone), 
+    poi altezza: __48m__ usando la formula dell'area del triangolo ($A = b \cdot h / 2$) al contrario ($h = 2\cdot A / b$)
+    
+![Rappresentazione grafica di un triangolo rettangolo con i lati e l'altezza indicati](./geo-problem.svg)
+
+{{% fragment %}}
+2. Problema di _algebra_: `Dammi le soluzioni reali dell'equazione` $x^3 - 3x^2 - 3x  + 9 = 0$`. Spiega i passaggi.`
+    - 3 soluzioni: $x = 3$, $x = \pm \sqrt{3}$ 
+{{% /fragment %}}
+
+---
+
+## Casi d'Uso di LLM: Assistente di (Ri)Scrittura (pt. 2)
+
+### ChatGPT come assistente al ragionamento
 
 
+
+3. Problema di _ragionamento_ logico:
+
+    `Deduci la coppia di numeri da scartare tra quelle di seguito proposte`
+    * `22:11`; 
+    * `11:01`; 
+    * `13:31`; 
+    * `31:13`; 
+    * `12:34`.
+
+    la coppia da scartare è __31:13__, perchè è l'unica che non è un _orario_ valido
+
+{{% fragment %}}
+4. Riprova la domanda precedente con _diversi modelli_ (previo login): 
+    - es. `GPT-4o`, `GPT-4o mini`, $\rightarrow$ `o1-mini` $\leftarrow$, `o1-preview` 
+{{% /fragment %}}
+
+{{% fragment %}}
+
+### Osservazioni
+
+1. Modelli per la sola generazione di testo (`GPT-4o`, `GPT-4o mini`) potrebbero _fallire_ nel capire il ragionamento
+
+2. Modelli per specifici per il ragionamento (`o1-mini`, `o1-preview`) potrebbero _capire_ il ragionamento e _mostrarne_ **i passaggi**
+    + sostanzialmente, questi modelli impiegano l'approccio ["Catena di Pensieri"](https://www.promptingguide.ai/it/techniques/cot)
+
+{{% /fragment %}}
+
+---
+
+## Funzionamento di base di un LLM
+
+![Predizione della prossima parola](./next-word-prediction-ita.png)
+
+- Gli LLM hanno imparato a __indovinare__ la _parola_ successiva in un _testo_ dato il _contesto_ precedente
+    * simile alla tastiera _predittiva_ del cellulare, ma molto più _complessa_ e _potente_
+- In altre parole, gli LLM hanno appreso come usare il __linguaggio naturale__
+
+---
+
+## Linguaggio e Ragionamento
+
+- Il __linguaggio naturale__ aiuta le persone a _comunicare_
+
+- Può essere usato per esprimere concetti _complessi_ o _astratti_
+
+- Può essere usato per _ragionare_ su _problemi_ e _soluzioni_
+    - tuttavia ammette __imprecisioni__, dovuti ad _ambiguità_, interpretazioni variabili, soggettività, etc.
+
+
+> Il linugaggio naturale permette agli LLM di usare __l'intuito__ nei _ragionamenti_, come gli umani
+> <br> (quindi di __sbagliare__ come gli umani)
+- $\implies$ gli LLM possono risultare molto sicuri di sé, pur dicendo cose _sbagliate_, _imprecise_, o _inventate_
+
+---
+
+## Esempio: Parole inventate
+
+Visitate il sito: [https://www.thisworddoesnotexist.com/](https://www-thisworddoesnotexist-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=wapp)
+
+genera parole _inventate_ che sembrano _reali_, ad esempio:
+
+{{< image src="./non-existing-word.png" >}}
+
+---
+
+## Casi d'Uso di LLM: Assistente di (Ri)Scrittura (pt. 3)
+
+### ChatGPT può essere usato per trovare le parole giuste
+
+Può aiutare a comunicare in modo _assertivo_, a partire da un contenuto scritto _di getto_.
+
+1. Si può chiedere a ChatGPT cosa dire in una _situazione specifica_
+    - es. `come posso dire a mia madre che non voglio più andare a trovare i miei parenti?`
+    - es. `come posso dire a mio figlio che non può uscire con gli amici stasera?`
+    - es. `come posso dire a mio capo che non posso fare straordinari stasera?`
+
+2. Più informazioni di _contesto_ si forniscono, più il risultato è _preciso_ e _pertinente_:
+    ```plaintext
+    Il mio amico Roberto mi ha fatto una scenata di gelosia perchè Andrea è venuto a trovarmi. 
+    Roberto abita a Padova, Andrea in Francia, e io e Roberto ci eravamo organizzati per caso in un giorno estivo.
+    Roberto voleva vedere Bologna ed è passato a trovarmi. 
+    Andrea è offeso perchè non l'abbiamo incluso. 
+    Ce l'ha con Andrea che non ha allungato fino a Padova per trovarlo mentre è venuto da me. 
+    Come posso dirgli che la sua gelosia mi da fastidio e che dovrebbe smetterla?
+    ```
+    - ChatGPT potrebbe dare suggerimenti su come impostare la comunicazione in maniera _assertiva_ e _rispettosa_
+        - __NB__: ChatGPT non è un _terapeuta_, e non può sostituire un _professionista_ della _comunicazione_ 
+        - __NB__: ChatGPT potrebbe _non_ essere in grado di _risolvere_ il problema, ma può _aiutare_ a _comunicare_ meglio
+
+3. Puoi anche chiedere: `mi suggerisci un esempio di messaggio?`
