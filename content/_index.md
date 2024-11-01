@@ -159,6 +159,8 @@ Dolores Abernathy di ["Westworld"](https://en.wikipedia.org/wiki/Westworld_(TV_s
 
 {{< image alt="Rappresentazione grafica di JARVIS" src="./jarvis.png" height="60vh" >}}
 
+<br>
+
 - nessun corpo: è un'entità virtuale
 - iper-razionale
 - inizialmente un mero assistente, fa poi delle scelte autonome che impattano la trama
@@ -175,14 +177,20 @@ Dolores Abernathy di ["Westworld"](https://en.wikipedia.org/wiki/Westworld_(TV_s
 
 [Skynet](https://en.wikipedia.org/wiki/Skynet_(Terminator)) di Terminator
 
-{{< image alt="Rappresentazione grafica di Skynet" src="./skynet.webp" >}}
-
+{{% multicol %}}
+{{% col %}}
+{{< image alt="Rappresentazione grafica di Skynet" src="./skynet.webp" width="100%" >}}
+{{% /col %}}
+{{% col %}}
 - nessun corpo: è un'entità virtuale
 - iper-razionale
 - quando raggiunge la auto-consapevolezza
     1. decide che gli umani sono una minaccia
     2. scatena un olocausto nucleare come attacco preventivo
 - \[implicito\] capacità di ottenere il controllo di altre macchine
+{{% /col %}}
+{{% /multicol %}}
+
 
 ---
 
@@ -190,7 +198,9 @@ Dolores Abernathy di ["Westworld"](https://en.wikipedia.org/wiki/Westworld_(TV_s
 
 L'IA di [Matrix](https://it.wikipedia.org/wiki/Matrix) (da non confondersi col solo Mr. Smith)
 
-{{< image alt="Rappresentazione grafica di Matrix" src="./matrix.avif" >}}
+{{< image alt="Rappresentazione grafica di Matrix" src="./matrix.avif" height="60vh" >}}
+
+<br>
 
 - non si capisce se IA sono un'entità collettiva o tante entità invididuali
 - le IA si sono ribellate agli umani:
@@ -204,7 +214,9 @@ L'IA di [Matrix](https://it.wikipedia.org/wiki/Matrix) (da non confondersi col s
 
 Rehoboam di [Westworld 3](https://it.wikipedia.org/wiki/Episodi_di_Westworld_-_Dove_tutto_%C3%A8_concesso_(terza_stagione))
 
-{{< image alt="Rappresentazione grafica di Rehoboam" src="./rehoboam.png" >}}
+{{< image alt="Rappresentazione grafica di Rehoboam" src="./rehoboam.png" height="60vh" >}}
+
+<br>
 
 - un supercomputer di dimensione sferica
 - accesso ai dati personali di tutte le persone, e non solo
@@ -218,7 +230,9 @@ Rehoboam di [Westworld 3](https://it.wikipedia.org/wiki/Episodi_di_Westworld_-_D
 
 "Il direttore" di [Travelers](https://it.wikipedia.org/wiki/Travelers)
 
-{{< image alt="Rappresentazione grafica del Direttore" src="./the-director.png" >}}
+{{< image alt="Rappresentazione grafica del Direttore" src="./the-director.png" height="60vh" >}}
+
+<br>
 
 - un computer quantistico, di forma cilindrica
 - accesso ai dati disponibili in rete
@@ -236,6 +250,8 @@ Traduzione automatica _di testo_ — Es. [Google Translate](https://translate.go
 
 {{< image alt="Interfaccia di Google Translate" src="./google-translate.png" link="https://translate.google.it/?hl=it&sl=it&tl=en&text=apelle%20figlio%20di%20apollo%20fece%20una%20palla%20di%20pelle%20di%20pollo%20e%20tutti%20i%20pesci%20vennero%20a%20galla%20per%20vedere%20la%20palla%20di%20pelle%20di%20pollo%20fatta%20da%20apelle%20figlio%20di%20apollo&op=translate" height="60vh" >}}
 
+<br>
+
 - include anche _Text-to-Speech_ (generazione di audio "parlato" da testo)
 
 ---
@@ -245,6 +261,8 @@ Traduzione automatica _di testo_ — Es. [Google Translate](https://translate.go
 Traduzione automatica _di immagini_ — Es. [Google Translate](https://translate.google.it/?sl=en&tl=it&op=images) 
 
 {{< image alt="Interfaccia di Google Translate" src="./google-translate-image.png" height="60vh" >}}
+
+<br>
 
 - include capacità di _riconoscimento_ e _localizzazione_ di testo in immagini
 - include capacità di _traduzione_ di testo in immagini
@@ -258,6 +276,8 @@ Traduzione automatica _di immagini_ — Es. [Google Translate](https://translate
 
 {{< image alt="Interfaccia di Instagram" src="./instagram-filters.jpg" height="60vh" >}} 
 
+<br>
+
 - include capacità di _riconoscere la posa_ e _l'orientamento_ del viso
 - include capacità di _modificare_ immagini predefinite e orientarle rispetto al viso
 
@@ -267,9 +287,9 @@ Traduzione automatica _di immagini_ — Es. [Google Translate](https://translate
 
 Riconoscimento di immagini — Es. analisi del traffico
 
-{{< image src="./image-recognition-1.avif" width="30vw" >}}
-{{< image src="./image-recognition-2.webp" width="30vw" >}}
-{{< image src="./image-recognition-3.png" width="30vw" >}} 
+{{< image src="./image-recognition-1.avif" width="33%" >}}
+{{< image src="./image-recognition-2.webp" width="33%" >}}
+{{< image src="./image-recognition-3.png" width="33%" >}} 
 
 - include capacità di _riconoscere_ e _localizzare_ oggetti in immagini
 - sembra una IA "unica", ma in realtà ogni IA è specializzata su un gruppo di oggetti
@@ -283,6 +303,8 @@ Riconoscimento di immagini — Es. autenticazione con volto
 
 {{< image src="./face-recognition.jpg" >}} 
 
+<br>
+
 - diverso dalla precedente: bisogna _distringuere_ un volto dagli altri
     * più complesso del semplice trovare un volto in una foto
 - utile per _autenticazione_ e _controllo_ accessi
@@ -295,6 +317,8 @@ Riconoscimento di immagini — Es. autenticazione con volto
 Riconoscimento di immagini — Es. di impronte digitali
 
 {{< image src="./fingerprints.png" height="60vh" >}}
+
+<br>
 
 - riconosce _solo_ impronte digitali, e le _distingue_ tra loro
 - sapendo che l'immagine è un'impronta, si può aumentare la precisione del riconoscimento, sfruttando le _minuzione tipiche_
@@ -310,6 +334,8 @@ Riconoscimento di immagini — Es. di caratteri scritti a mano
 {{< image src="./hwr-1.jpg" height="60vh" >}} 
 [esempio interattivo qui](https://shapecatcher.com/)
 
+<br>
+
 - molto difficile riconoscere _intero testo_ scritto a mano
     - più facile riconoscere _singoli caratteri_
 - utile per automazione di _operazioni postali_, o di elaborazione di _moduli standardizzati_
@@ -321,6 +347,8 @@ Riconoscimento di immagini — Es. di caratteri scritti a mano
 Calcolo di percorsi — Es. [Google Maps](https://www.google.it/maps)
 
 {{< image src="./google-maps.png" link="https://www.google.it/maps/dir/Cesena,+FC/47019+Tredozio+FC/@44.2020717,11.8303411,11z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x132ca4d41ed493c1:0xbee0ab1075577a47!2m2!1d12.2464292!2d44.1396438!1m5!1m1!1s0x132b6a8d8b16349b:0x89b559ffb27df3de!2m2!1d11.7438477!2d44.0792596!3e0?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" height="60vh" >}}
+
+<br>
 
 - attività molto consolidata, ma è tra i primi esempi di IA nei libri di testo
 - include capacità di _calcolare_ il percorso migliore tra due punti
@@ -335,6 +363,8 @@ Calcolo di percorsi — Es. _Non-Playing Characters_ (NPC, Personaggi non giocan
 {{< image src="./a-star2.gif" height="60vh" >}}
 [esempio interattivo qui](https://amarillion.github.io/helixgraph/examples/d3/)
 
+<br>
+
 - utile per far muovere i personaggi dei videogiochi in modo _realistico_ verso una destinazione
 - l'idea di fondo, è la stessa di Google Maps, ma in uno spazio diverso
 
@@ -345,6 +375,8 @@ Calcolo di percorsi — Es. _Non-Playing Characters_ (NPC, Personaggi non giocan
 Riconoscimento di _suoni_ — Es. [Shazam](https://www.shazam.com/)
 
 {{< image src="./shazam.webp" height="70vh" >}}
+
+<br>
 
 - riconosce canzoni e brani musicali da brevi estratti audio
 
@@ -357,6 +389,8 @@ Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parla
 [(esempio interattivo qui)](https://dictation.io/speech)
 {{< image src="./speech-recognition.png" >}}
 
+<br>
+
 - _converte_ parlato in testo scritto e digitalizzato
 - utile in combinazione TTS (Text-to-Speech) per creare _assistenti vocali_
 
@@ -368,13 +402,13 @@ Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parla
 
 {{% fragment %}}
 ### Vantaggi diretti: 
-+ _velocità_: le macchine sono più rapide degli umani nella maggior parte dei casi
-+ _costo_: le macchine non fanno fatica, non si stancano, non hanno bisogno di stipendio
++ __velocità__: le macchine sono più rapide degli umani nella maggior parte dei casi
++ __costo__: le macchine non fanno fatica, non si stancano, non hanno bisogno di stipendio
     * alcuni servizi di IA hanno un prezzo che copre costi di _sviluppo/esercizio_ e _profitto_ del fornitore 
-+ _precisione_: su compiti ripetitivi, le macchine sono più precise degli umani
++ __precisione__: su compiti ripetitivi, le macchine sono più precise degli umani
     * in generale, l'errore è controllabile $\implies$ compromesso tra _precisione_ e _velocità_
-+ _disponibilità_: le macchine non hanno orari d'ufficio, non si ammalano, non vanno in ferie
-+ _riproducibilità_: una volta compreso come automatizzare una attività, tutti possono beneficiarne
++ __disponibilità__: le macchine non hanno orari d'ufficio, non si ammalano, non vanno in ferie
++ __riproducibilità__: una volta compreso come automatizzare una attività, tutti possono beneficiarne
 {{% /fragment %}}
 
 {{% fragment %}}
@@ -403,7 +437,7 @@ Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parla
     * etc.
 
 {{% fragment %}}
-In realtà l'IA può essere applicata in questi ambiti, ma solo per _efficientizzare_ il servizio
+> In realtà l'IA può essere applicata in questi ambiti, ma solo per _efficientizzare_ il servizio
 {{% /fragment %}}
 
 ---
@@ -472,6 +506,8 @@ In realtà l'IA può essere applicata in questi ambiti, ma solo per _efficientiz
 
 {{< image src="supervised.png" height="60vh"  >}}
 
+<br>
+
 1. __Allenamento__: gli umani forniscono _molti_ esempi _noti_ delle cose da riconoscere, la macchina impara da essi
     + es. _foto_ di vari animali e rispettivi _nomi_
 
@@ -485,6 +521,8 @@ In realtà l'IA può essere applicata in questi ambiti, ma solo per _efficientiz
 ## Apprendimento per Rinforzo
 
 {{< image src="reinforcement.jpg" height="60vh" >}}
+
+<br>
 
 - __Allenamento__: la macchina riceve un _premio_ quando fa _bene_ e una _penalità_ quando fa male
     + impara cosa è opportuno fare quando
@@ -721,11 +759,11 @@ Prova a fare una _ricerca_ su un tema di cui __hai un'idea vaga__, ad esempio:
 
 ## Le immagini generate al punto 5
 
-{{< image src="./fedez/image1.webp" height="33vh" >}}
-{{< image src="./fedez/image2.webp" height="33vh" >}}
-{{< image src="./fedez/image3.webp" height="33vh" >}}
-{{< image src="./fedez/image4.webp" height="33vh" >}}
-{{< image src="./fedez/image5.webp" height="33vh" >}}
+{{< image src="./fedez/image1.webp" width="33%" max-h="50vh" >}}
+{{< image src="./fedez/image2.webp" width="33%" max-h="50vh" >}}
+{{< image src="./fedez/image3.webp" width="33%" max-h="50vh" >}}
+{{< image src="./fedez/image4.webp" width="33%" max-h="50vh" >}}
+{{< image src="./fedez/image5.webp" width="33%" max-h="50vh" >}}
 
 ---
 
