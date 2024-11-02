@@ -253,6 +253,11 @@ kbd {
 	justify-content: center;
 }
 
+.hint {
+	font-size: 0.4em;
+	color: gray;
+}
+
 .reveal .slide-background {
 	background-color: $backgroundColor;
 	// background-image: $logo;
@@ -267,13 +272,13 @@ kbd {
 }
 
 .reveal .slide-background:after {
-	// content: "Authors - Title - Venue Year";
+	content: "Giovanni Ciatto — \"A cosa ci serve l'IA?\" — 2024";
 	position: absolute;
 	bottom: 2.5%;
 	right: 6%;
 	z-index: -1;
 	color: $detailBackgroundColor;
-	font-size: .8em;
+	font-size: .4em;
   }
 
 

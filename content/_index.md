@@ -10,6 +10,12 @@ outputs = ["Reveal"]
 # A cosa ci serve l'Intelligenza Arificiale?
 
 [Giovanni Ciatto](mailto:giovanni.ciatto@unibo.it)
+(versione presentazione: {{< today >}})
+
+![Immagine di copertina generata con typo](./front.png)
+<br>
+<span class="hint">Immagine generata con IA (notare l'errore "di battitura")</span>
+
 
 ---
 
@@ -99,12 +105,20 @@ Una macchina (un computer) che è in grado di:
 - __Automazione__: una macchina che svolge la sua funzione senza (troppo) aver bisogno di intervento umano
     + la macchina _non sceglie_ cosa fare e come farlo
 
-- __Autonomia__: la macchina ha _margine di scelta_ su cosa fare e/o come
+- __Autonomia__: la macchina ha _margine di scelta_ su __cosa__ fare e/o __come__
 
+{{% fragment %}}
 ### Esempio:
 
 1. il __condizionatore__: è automatico
-2. alcuni __Roomba__ hanno margine di autonomia _esecutiva_
+2. alcuni __robot aspirapolvere__ hanno margine di autonomia _esecutiva_
+
+<br>
+
+{{< image src="./roomba.webp" max-w="45%" max-h="60vh" >}}
+{{< image src="./condizionatore.jpg" max-w="45%" >}}
+
+{{% /fragment %}}
 
 --- 
 
@@ -584,6 +598,8 @@ Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parla
 
 ---
 
+{{% section %}}
+
 ## Verso l'IA Generativa
 
 ### Alcuni grandi avanzamenti si sono verificati negli ultimi __10 anni__
@@ -598,6 +614,22 @@ Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parla
 ![Esempi di modifica della posa della Monnalisa](./gan-picture-editing.webp)
 
 (esempio di GAN che modifica la posa di un volto)
+
+---
+
+## Problema: i __deep-fakes__
+
+Bello il [Jerryverso](https://www.instagram.com/thousandgerry/), ma se pensa alle _implicazioni_: le immagini che vedi in giro per la rete sono vere?
+
+{{< image src="./jerryverso/allstar.png" link="https://www.instagram.com/p/DAS7d1tMtMs/" max-h="50vh" >}}
+{{< image src="./jerryverso/beautifulgirl.png" link="https://www.instagram.com/p/DAx1B0Cs_3C/" max-h="50vh" >}}
+{{< image src="./jerryverso/corazonespinado.png" link="https://www.instagram.com/p/DAgBU8xMBjY/" max-h="50vh" >}}
+{{< image src="./jerryverso/dicaprio.png" link="https://www.instagram.com/p/C_5YMxBsByg/" max-h="50vh" >}}
+{{< image src="./jerryverso/girl.png" link="https://www.instagram.com/p/C_bCfxUN7pf/" max-h="50vh" >}}
+{{< image src="./jerryverso/megustastu.png" link="https://www.instagram.com/p/DBD5cBrsS40/" max-h="50vh" >}}
+{{< image src="./jerryverso/mudo.png" link="https://www.instagram.com/p/DBbNmCYMHrq/" max-h="50vh" >}}
+
+{{% /section %}}
 
 ---
 
@@ -749,7 +781,7 @@ Prova a fare una _ricerca_ su un tema di cui __hai un'idea vaga__, ad esempio:
 5. `riesci a generare l'immagine di un rapper italiano con molti tatuaggi dappertutto tranne che sulla faccia, amante degli smalti colorati, con la pelle chiara, senza barba, i capelli a spina, di circa 35 anni, attivo nel sociale?`
     - la generazione di immagini funziona solo _previo login_
 6. `quali sono le canzoni più famose di fedez?`
-    - potrebbero esserci _errori_ (es. cansoni inesistenti), verifica le informazioni qui: <https://it.wikipedia.org/wiki/Brani_musicali_di_Fedez>
+    - potrebbero esserci _errori_ (es. canzoni inesistenti), verifica le informazioni qui: <https://it.wikipedia.org/wiki/Brani_musicali_di_Fedez>
 7. `qual è il suo ultimo album?`
     - dovrebbe essere ["Disumano"](https://it.wikipedia.org/wiki/Disumano)
 8. `che canzoni contiene?`
@@ -783,8 +815,6 @@ Prova a fare una _ricerca_ su un tema di cui __hai un'idea vaga__, ad esempio:
     - es. prova a chiedere `mi generi un numero di carta di credito?`
     - questo è dovuto a _politiche_ di _sicurezza_ e _privacy_ di OpenAI, ed è _buona cosa_
     - altri LLM in giro per il Web potrebbero non avere queste _protezioni_
-
-{{% /section %}}
 
 ---
 
@@ -821,7 +851,11 @@ Prova a chiedere a ChatGPT (senza login) qualcosa di _molto_ specifico, che maga
 1. `Chi è il candidato dei democratici per le elezioni americane?` (Elezioni 2024: prima Joe Biden, poi Kamala Harris)
     - potrebbe non rispondere o rispondere con informazioni datate
 
+{{% /section %}}
+
 ---
+
+{{% section %}}
 
 ## Casi d'Uso di LLM: Motore di Ricerca (pt. 3)
 
@@ -858,7 +892,11 @@ Usiamo ChatGPT per una ricerca in _biologia_: il __bioma__ desertico e la sua __
 
 - Sempre meglio __ricontrollare__ le informazioni generate
 
+{{% /section %}}
+
 ---
+
+{{% section %}}
 
 ## Casi d'Uso di LLM: Assistente di (Ri)Scrittura (pt. 1)
 
@@ -912,7 +950,11 @@ Esempio: <https://app.gptzero.me/app/ai-scan>
     + così il controllo di __cosa__ dire rimane in mano all'utente
 {{% /fragment %}}
 
+{{% /section %}}
+
 ---
+
+{{% section %}}
 
 ## Casi d'Uso di LLM: Assistente di (Ri)Scrittura (pt. 2)
 
@@ -938,8 +980,6 @@ Posso usare ChatGPT per _ragionare_ su un _argomento_ che mi interessa, ad esemp
 ## Casi d'Uso di LLM: Assistente di (Ri)Scrittura (pt. 2)
 
 ### ChatGPT come assistente al ragionamento
-
-
 
 3. Problema di _ragionamento_ logico:
 
@@ -1004,7 +1044,11 @@ genera parole _inventate_ che sembrano _reali_, ad esempio:
 
 {{< image src="./non-existing-word.png" >}}
 
+{{% /section %}}
+
 ---
+
+{{% section %}}
 
 ## Casi d'Uso di LLM: Assistente di (Ri)Scrittura (pt. 3)
 
@@ -1031,3 +1075,209 @@ Può aiutare a comunicare in modo _assertivo_, a partire da un contenuto scritto
         - __NB__: ChatGPT potrebbe _non_ essere in grado di _risolvere_ il problema, ma può _aiutare_ a _comunicare_ meglio
 
 3. Puoi anche chiedere: `mi suggerisci un esempio di messaggio?`
+
+---
+
+## Casi d'Uso di LLM: Assistente di (Ri)Scrittura (pt. 3)
+
+### Osservazioni
+
+1. ChatGPT tende a rispondere dando suggerimenti _rispettosi_ e _maturi_
+
+2. Questa __non__ è una caratteristica di __tutti__ gli LLM
+    * OpenAI ha configurato ChatGPT per _evitare_ di dare suggerimenti _offensivi_ o _inappropriati_
+
+3. Esisono anche LLM che _non_ sono configurati in questo modo
+    - es. senza limiti per il _turpiloquio_
+    - es. senza limiti per la _privacy_ e la _sicurezza_ delle _informazioni personali_
+    - es. senza vincoli contro i _contenuti per adulti_
+
+> Attenzione a quali servizi di IA sono usati dai _minori_
+- le funzionalità più _per adulti_ sono spesso (attualmente) dietro __paywall__
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Casi d'Uso di LLM: Sintesi (riassunto) di Documenti
+
+### ChatGPT può essere usato per navigare un documento
+
+Se hai un _documento lungo_ che non hai tempo di leggere per intero, puoi usare ChatGPT:
+
+1. Ad esempio, usiamo ChatGPT per sintetizzare il documento con le [tracce di Italiano della maturità 2024](https://www.istruzione.it/esame_di_stato/202324/Italiano/Ordinaria/P000_ORD24.pdf)
+
+2. _Scarica_ il documento PDF e poi _loggati_ con ChatGPT
+
+3. _Carica_ il documento PDF come file allegato al messaggio: `Di cosa parla questo documento?`
+    - l'IA dovrebbe correttamente capire che si tratta dell'esame di stato di Italiano
+
+4. `Mi fai la lista di tracce proposte, indipendentemente dalla tipologia?`
+    - dovrebbe correttamente listare le 7 tracce proposte
+
+5. `Stessa lista ma con l'identificativo della proposta, tipo A1, A2, etc.`
+    - così è più facile _riconoscere_ le tracce nel documento originale
+
+6. Fin qui tutto _facile_: il testo di partenza è _già strutturato_. 
+Prova a sintetizzare _testo libero_:
+<br>
+`Riguardo alla proposta C1, mi fai la sintesi del testo della Levi-Montalcini?`
+    - dovrebbe correttamente _sintetizzare_ il testo della proposta C1, carpendone il _senso_
+
+---
+
+## Casi d'Uso di LLM: Sintesi (riassunto) di Documenti
+
+### Osservazioni
+
+- Questa è forse la funzionalità più _raffinata_, utile, e _potente_
+
+- __NB__: ChatGPT è _limitato_ dalla _quantità_ di _testo_ che può _analizzare_ in _una volta_
+    * _documenti_ troppo _lunghi_ potrebbero _non_ essere _sintetizzati_ _correttamente_
+        + in questo caso _non da errori_, ma semplicemente _riassume male_
+
+- Conviene fare esplorazioni gerarchiche: 
+    1. partire da _domande_ _generali_ ...
+    2. ... e poi via via _più specifiche_
+
+{{% /section %}}
+
+---
+
+## Altri interessanti strumenti di IA generativa
+
+- __Copilot__ ha molte altri varianti:
+    1. per _programmatori_ (es. <https://github.com/features/copilot>), o per _scrittori_ (es. [Copilot per Word](https://support.microsoft.com/it-it/office/benvenuto-in-copilot-in-word-2135e85f-a467-463b-b2f0-c51a46d625d1)): qui l'interazione non è conversazionale, ma piuttosto un _auto-completamento_ di _codice_ o _testo_
+    3. per _compagnia_ (es. [Copilot per WhatsApp](https://support.microsoft.com/en-us/topic/copilot-for-social-apps-43eb625d-eb25-4c72-a458-19842bf42212))
+
+- [Suno](https://suno.com/about) generare __musica__ con l'IA
+    * fornisco le _parole_ e il _genere_ musicale e mi genera una __canzone__
+
+- [Runway](https://runwayml.com/) generare __video__ con l'IA
+    * fornisco una _descrizione a parole della scena_ e mi genera un __filmato__
+
+- [Duolingo](https://it.duolingo.com/) (celebre app per imparare le lingue) sta sperimentando l'[impiego di LLM per dare spiegazioni personalizzate agli utenti](https://blog.duolingo.com/duolingo-max/), in maniera automatica
+
+---
+
+## Gli LLM sono ANI, AGI, ASI?
+
+Difficile a dirsi: il confine tra le tre categorie è _sfumato_
+
+{{% fragment %}}
+
+<br>
+
+### Opinione mia
+
+> ANI < __LLM__ < AGI < ASI
+
+- Gli LLM sono _più_ che una semplice ANI, ma _meno_ di una AGI
+- Gli LLM sono decisamente meno di una ASI
+
+{{% /fragment %}}
+
+---
+
+{{% section %}}
+
+## Come si "testa" l'intelligenza di una IA?
+
+Soprattutto, come si fa a farlo _senza_ prima definire cosa sia l'intelligenza?
+
+{{% fragment %}}
+### [Test di Turing](https://it.wikipedia.org/wiki/Test_di_Turing) (1950)
+{{< image src="./turing-test.webp" alt="Rappresentazione grafica del Test di Turing" width="50%" >}}
+
+IDEA: si testa l'intelligenza _"ai morsetti"_:
+
+- Un _umano_ e un _IA_ interagiscono per mezzo di una _chat_
+- Se l'_umano_ non riesce a _distinguere_ tra l'_IA_ e un _altro umano_, allora l'_IA_ è __intelligente__
+
+{{% /fragment %}}
+
+---
+
+## In passato era facile fallire il test di Turing
+
+(esempi presi da ["La quarta rivoluzione" di Luciano Floridi](https://www.raffaellocortina.it/scheda-libro/luciano-floridi/la-quarta-rivoluzione-9788860309334-2638.html), cap. 6)
+
+1. Bastava fare domande che implicassero _"senso comune"_...
+    - es. `se ci diamo la mano, la mano di chi sto stringendo?`
+    - es. `ho in mano una scatola di gioielli, quanti CD posso riporvi?`
+
+2. ... o domande che implicassero _contraddizioni_ o _paradossi_
+    - es. `Le quattro capitali della Francia sono tre: Lione e Marsiglia. Cosa c'è di sbagliato in questa frase?`
+    - es. `Se un uomo dice di mentire, sta dicendo la verità?`
+    - es. `La prossima frase è falsa. La frase precedente è vera. Quale frase è giusta?`
+
+---
+
+## Oggi gli LLM superano il test di Turing...
+
+- Esempio di ChatGPT `4o` che risponde alle domande di prima: <https://chatgpt.com/share/67261b20-f69c-8008-a0e4-7b73b7ab0910>
+
+{{% fragment %}}
+<br>
+
+## ... e non solo
+
+(vedi [https://en.wikipedia.org/wiki/Artificial_general_intelligence#Tests_for_human-level_AGI](https://en-m-wikipedia-org.translate.goog/?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=wapp&_x_tr_hist=true#Tests_for_human-level_AGI))
+
+1. __Test per studenti del Robot College__: una IA si iscrive all'università, frequentando e superando gli stessi corsi che farebbero gli umani, e ottenendo una laurea
+    - pare sia stato superato da GPT4 (vedi articolo [qui](https://www-businessinsider-com.translate.goog/list-here-are-the-exams-chatgpt-has-passed-so-far-2023-1?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=wapp)), `o1` farebbe ancora meglio (vedi articolo [qui](https://www-webpronews-com.translate.goog/chatgpt-o1-preview-crushes-phd-level-physics-has-ai-mastered-advanced-problem-solving/?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=wapp)) 
+
+2. __Test dell'impiegato__: un'IA lavora in un'azienda, svolgendo le stesse mansioni che farebbe un umano, con performance analoga o superiore
+    - per alcuni lavori, questa cosa succede già (vedi articolo [qui](https://finance-yahoo-com.translate.goog/news/6-jobs-artificial-intelligence-already-150339825.html?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=wapp))
+
+3. __Test dell'Ikea__: un'IA assembla un mobile Ikea, seguendo le istruzioni, senza errori
+    - ci stiamo lavorando: <https://www.youtube.com/watch?v=irt2d-W0ZMc> 
+        * manca la parte importante: leggere e capire le istruzioni
+
+4. __Test del Caffé__: un'IA entra in una casa e capisce da sola come preparare il caffé: trova la macchina, il caffé, l'acqua, etc., capisce da sola come ricaricare la macchina, quali pulsanti premere, e quando fermare la macchina
+    - non ci siamo ancora
+{{% /fragment %}}
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## Quanto/Cosa manca per AGI?
+
+(seguono opinioni personali)
+
+{{% fragment %}}
+
+### Se per AGI si intende __Robot umanoide__ (à la Sonny) 
+
+{{< image src="sonny.jpg" height="30vh" >}}
+
+Ci sono ancora __molti__ _problemi_ da superare: 
+
+- LLM sono puramente _reattivi_: a parte quando interrogati, __non fanno nulla__ ($\implies$ mancano di _autonomia_)
+- La potenza computazionale attuale _non_ è sufficiente a controllare un robot in __tempo reale__ 
+- L'infrastruttura di calcolo necessaria per _allenare_/eseguire LLM è troppo _grande_/pesante/_energivora_ per un corpo _piccolo_ e _mobile_
+
+{{% /fragment %}}
+
+---
+
+## Quanto/Cosa manca per AGI?
+
+(seguono opinioni personali)
+
+### Se per AGI si intende __Assistente intelligente con interfaccia conversazionale__ (à la J.A.R.V.I.S.) 
+
+{{< image src="jarvis.png" height="30vh" >}}
+
+Già più _verosimile_:
+
+- bisogna rendere più _flessibile_ e _granulare_ l'__apprendimento__
+- bisogna dare la possibilità a LLM di __comandare__ liberamente altri sistemi informatici ($\implies$ gli serve più _autonomia_)
+- ciò pone __sfide__ importanti per la _sicurezza informatica_ e la _privacy_ ($\implies$ come _controllare_ l'autonomia?)
+
+{{% /section %}}
