@@ -1281,3 +1281,190 @@ Già più _verosimile_:
 - ciò pone __sfide__ importanti per la _sicurezza informatica_ e la _privacy_ ($\implies$ come _controllare_ l'autonomia?)
 
 {{% /section %}}
+
+---
+
+# IA e Società
+
+## Macro-temi
+
+- IA e _Lavoro_
+- IA e _Ambiente_
+- IA e _Salute_
+- IA e _Istruzione_
+- IA e _Sicurezza_
+- IA e _Difesa_
+- IA e _Giustizia_
+- IA ed _Etica_
+
+---
+
+{{% section %}}
+
+## IA e Lavoro (pt. 1)
+
+### IA rimpiazzerà il mio lavoro?
+
+{{< image src="./concepts/ai-work.avif" >}}
+
+<br>
+
+- Dipende dalla natura lavoro:
+    * molti lavori _cambieranno_: diventerà importante (saper) _usare_ IA per rimanere _competitivi_
+    * alcuni lavori _perderanno di importanza_: verranno _automatizzati_ o _semplificati_
+        + tendenzialmente quelli _ripetitivi_, _monotoni_, e  per lo più _informativi_, ma comunque a **bassa** _creatività_ e _specializzazione_
+
+--- 
+
+## IA e Lavoro (pt. 2)
+
+### IA o automazione?
+
+Non è tanto l'IA, è l'__automazione__ che cambia il mondo del lavoro
+
+{{% fragment %}}
+
+{{% multicol %}}
+{{% col class="col-4" %}}
+{{< image alt="Una centralinista" src="./concepts/centralinista.jpg" width="100%" >}}
+{{% /col %}}
+{{% col %}}
+ha ancora senso il mestere del _centralinista_?
+
+{{% fragment %}}
+<br>
+
+> L'automazione _non_ è un problema...
+> - ... se la _società_ ha il tempo di _adattarsi_
+> - ... lo è se i cambiamenti sono _troppo rapidi_
+>    + più veloci del ricambio generazionale
+{{% /fragment %}}
+
+{{% fragment %}}
+> Al tempo stesso:
+> - non è furbo evitare/impedire il cambiamento
+> - noi possiamo non cambiare, ma gli altri?
+{{% /fragment %}}
+
+{{% /col %}}
+{{% /multicol %}}
+
+{{% /fragment %}}
+
+{{% /section %}}
+
+---
+
+## IA e Lavoro (pt. 3)
+
+### Quali sono i lavori meno esposti?
+
+(seguono opinioni)
+
+> Contro-intuitivamente: i lavori __manuali__ e/o di interfacciamento al __pubblico__ 
+> <br> e/o ad __elevata__ _responsabilità/specializzazione_
+
+- Manuali: 
+    * es. _idraulici_, _muratori_, _giardinieri_, _meccanici_, _falegnami_, _chef_, _parrucchieri_, _estetisti_, etc.
+
+- Interfacciamento al pubblico:
+    * es. _camerieri_, _baristi_, _commessi_, _segretari_, etc. 
+
+- Elevata responsabilità/specializzazione:
+    * es. _medici_, _infermieri_, _ingegneri_, _legali_, etc.
+
+---
+
+{{% section %}}
+
+## IA e Ambiente
+
+### Usare e soprattutto allenare IA _inquina_
+
+(vedi articolo di approfondimento [qui](https://devblogs-microsoft-com.translate.goog/sustainable-software/the-carbon-footprint-of-ai/?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=wapp))
+
+{{< image src="./concepts/carbon-footprint-ita.png" >}}
+
+<br>
+
+- ... inquina nella misura in cui richiede __molta energia elettrica__
+    + la cui produzione in maniera _pulita_ è ancora un _problema aperto_
+        * la soluzione è produrre _più energia pulita_, non usare _meno l'IA_
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## IA e Salute
+
+{{% multicol %}}
+{{% col class="col-6" %}}
+{{< image src="./concepts/healthcare-ita.png" alt="Applicazioni della IA alla salute" width="100%" >}}
+{{% /col %}}
+{{% col %}}
+- L'impiego di __ANI__ alla salute è già una realtà
+
+- L'auspicio è che il supporto alla __diagnosi__ possa snellire il _carico di lavoro_ dei medici
+    + ottime performance della diagnosi di _malattie comuni_
+    + come gestire _casi rari_?
+
+- Il problema della __responsabilità__?
+    + chi è responsabile in caso di _errore_? (il __medico__)
+
+- Da bilanciare _automatismo_ e _cura_
+{{% /col %}}
+{{% /multicol %}}
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## IA e Istruzione
+
+TBD
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## IA e Sicurezza
+
+TBD
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## IA e Difesa
+
+TBD
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## IA e Giustizia
+
+TBD
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## IA e Etica
+
+TBD
+
+{{% /section %}}
