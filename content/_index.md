@@ -1252,7 +1252,7 @@ IDEA: si testa l'intelligenza _"ai morsetti"_:
 
 {{% fragment %}}
 
-### Se per AGI si intende __Robot umanoide__ (à la Sonny) 
+### Se per AGI si intende __Robot umanoide__ (alla Sonny) 
 
 {{< image src="sonny.jpg" height="30vh" >}}
 
@@ -1270,7 +1270,7 @@ Ci sono ancora __molti__ _problemi_ da superare:
 
 (seguono opinioni personali)
 
-### Se per AGI si intende __Assistente intelligente con interfaccia conversazionale__ (à la J.A.R.V.I.S.) 
+### Se per AGI si intende __Assistente intelligente con interfaccia conversazionale__ (alla J.A.R.V.I.S.) 
 
 {{< image src="jarvis.png" height="30vh" >}}
 
@@ -1296,6 +1296,8 @@ Già più _verosimile_:
 - IA e _Difesa_
 - IA e _Giustizia_
 - IA ed _Etica_
+- IA e _Informazione_
+- IA e _Arte_
 
 ---
 
@@ -1395,8 +1397,6 @@ ha ancora senso il mestere del _centralinista_?
 
 ---
 
-{{% section %}}
-
 ## IA e Salute
 
 {{% multicol %}}
@@ -1413,7 +1413,198 @@ ha ancora senso il mestere del _centralinista_?
 - Il problema della __responsabilità__?
     + chi è responsabile in caso di _errore_? (il __medico__)
 
-- Da bilanciare _automatismo_ e _cura_
+- Da bilanciare _automatismo_ e _cura_ del paziente
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+{{% section %}}
+
+## IA e Istruzione (pt. 1)
+
+{{< image src="./concepts/education-ita.png" alt="Applicazioni della IA all'istruzione" width="70%" >}}
+
+<br>
+
+- Si sta già facendo ricerca su come usare l'IA per _personalizzare_ l'_istruzione_
+    + l'idea di fondo e di __adattare__ il percorso di _apprendimento_ al _discente_
+
+- Ci sono aspetti molto critici, come l'automazione del processo di __valutazione__
+    + a mio avviso _inopportuno_, meglio fermarsi all'identificazione _semi-automatica_ di __errori__ e __incongruenze__
+
+- Cambia anche il ruolo del __docente__: 
+    + cambia il modo in cui si prepara il _materiale didattico_
+    + importante _educare_ all'uso dell'IA anziché _evitarlo_
+
+---
+
+## IA e Istruzione (pt. 2)
+
+- Problematica anche l'impostazione di __test__ ed __esericizi__:
+    + come fare in modo che gli studenti acquiscano _abilità_ importanti, ma _frustranti_ da imparare?
+        * es. _ragionamento logico_, scrittura _creativa_, _problem solving_, etc.
+    + bisogna ripensare le modalità di _verifica_ ed _esercitazione_:
+        * quando vietare l'uso di _AI_? quando _incentivarlo_?
+        * importanza delle prove _orali_, _scritte a mano_, _pratiche_, _interattive_, etc.
+
+- Peggiora forse il problema della __soglia di attenzione__?
+
+- Cambiano le priorità sulle _competenze fondamentali_ da acquisire
+    + capacità di _ricerca_ e _analisi critica_ VS. _memorizzazione_ e _riproduzione_
+    + già successo in passato, es: _calcolatrice_, _disegno tecnico_, etc.
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## IA e Sicurezza (pt. 1)
+
+> Scenari __distopici__ alla ["Black Mirror"](https://it.wikipedia.org/wiki/Black_Mirror_(serie_televisiva)) sono oggigiorno non solo _possibili_, ma in certi paesi _reali_
+
+<br>
+
+In generale, le applicazioni di IA alla _sicurezza_ hanno a che fare col __monitoraggio__ delle attività umane, ad esempio:
+{{% multicol %}}
+{{% col %}}
+![](./concepts/bio-id.jpg)
+
+Riconoscimento facciale/biometrico in tempo reale
+
+(pare sia usato in Cina, vedi [qui](https://www-wired-com.translate.goog/story/china-is-the-worlds-biggest-face-recognition-dealer/?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=wapp))
+{{% /col %}}
+{{% col %}}
+![](./concepts/social-scoring.jpg)
+
+Social scoring (punteggio sociale)
+
+(usato in Cina, vedi [qui](https://it.wikipedia.org/wiki/Sistema_di_credito_sociale))
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+## IA e Sicurezza (pt. 2)
+
+> Il fatto di stare in __EU__ ci offre garanzie _inimmaginabili_ in altri paesi
+
+[A marzo 2024 è stata approvata la legge europea nota come AI Act protegge regola l'uso dell'IA in Europa](https://www.europarl.europa.eu/news/it/press-room/20240308IPR19015/il-parlamento-europeo-approva-la-legge-sull-intelligenza-artificiale)
+<br> (entrata in vigore: _agosto 2024_)
+
+{{% fragment %}}
+Tra gli aspetti principali, ci sono i __divieti__ per applicazioni ad _alto rischio_ come (fonte [qui](https://www-trail--ml-com.translate.goog/blog/eu-ai-act-how-risk-is-classified?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=wapp#)):
+
+- __Manipolazione subliminale__, es. invogliare a votare per un partito politico senza che la persona se ne accorga <!-- modificare il comportamento di una persona senza che questa ne sia consapevole, il che danneggerebbe la persona in qualsiasi modo. Un esempio potrebbe essere un sistema che influenza le persone a votare per un particolare partito politico senza la loro conoscenza o il loro consenso. -->
+
+- __Sfruttamento delle vulnerabilità__ delle persone che si traduce in _comportamenti dannosi_, es. un voce infantile sintetica che incita i bambini a fare cose pericolose <!-- ciò include la situazione sociale o economica, l'età e le capacità fisiche o mentali. Ad esempio, un giocattolo con assistenti vocali che può animare i bambini a fare cose pericolose. -->
+
+- __Categorizzazione biometrica__ in base a caratteristiche _sensibili_: genere, etnia, orientamento politico/sessuale, religione, etc. <!-- e convinzioni filosofiche. -->
+
+- __Punteggio sociale generico__ con cui negare/permettere _opportunità_ o _servizi_ agli individui <!-- utilizzo di sistemi di intelligenza artificiale per valutare gli individui in base alle loro caratteristiche personali, al comportamento sociale e alle attività, come gli acquisti online o le interazioni sui social media. La preoccupazione è che, ad esempio, a qualcuno potrebbe essere negato un lavoro o un prestito semplicemente a causa del suo punteggio sociale derivato dal suo comportamento di acquisto o dalle interazioni sui social media, il che potrebbe essere ingiustificato o non correlato. -->
+
+- __Identificazione biometrica remota in tempo reale__ (in spazi pubblici), con _eccezioni_ possibili previa _autorizzazione_ dell'autorità giudiziaria, con _supervisione_ della Commissione Europea <!-- i sistemi di identificazione biometrica saranno completamente vietati, inclusa l'identificazione ex post. Possono essere fatte eccezioni per le forze dell'ordine con l'approvazione giudiziaria e la supervisione della Commissione. Ciò è possibile solo per gli scopi predefiniti di ricerca mirata di vittime di reati, prevenzione del terrorismo e ricerca mirata di criminali gravi o sospettati (ad esempio tratta, sfruttamento sessuale, rapina a mano armata, reati ambientali). -->
+
+- __Valutazione dello stato emotivo di una persona__, sul lavoro o nell'istruzione (eccezioni possibili per _sicurezza_ o _salute_) <!-- questo vale per i sistemi di intelligenza artificiale sul posto di lavoro o nell'istruzione. Il riconoscimento delle emozioni può essere consentito come applicazione ad alto rischio, se ha uno scopo di sicurezza (ad esempio, rilevare se un conducente si addormenta). -->
+
+- __Polizia predittiva__: valutazione del rischio che un individuo commetta un _crimine futuro_ in base alle sue caratteristiche personali.
+
+{{% /fragment %}}
+
+{{% /section %}}
+
+---
+
+## IA e Difesa
+
+(fonte [qui](https://sciencepolicyreview-org.translate.goog/2022/07/mitspr-191618003019/?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=wapp))
+
+{{< image width="50%" src="./concepts/weapons.png" >}}
+
+- Le __armi autonome__ stanno _proliferando_ rapidamente
+    + in termini di accessibilità, _gradi di autonomia_, gamma di sviluppatori internazionali, _letalità_, precisione, etc.
+
+- Rimangono problemi __tecnici__, etici, e normativi riguardo agli _errori_ e alle _responsabilità_
+    + es. _danni collaterali_, _errori di identificazione_, _malfunzionamenti_, _attacchi informatici_, etc. 
+
+- La _politica_ internazionale resta _ambigua_ riguardo alla necessità di __normare__
+
+- La __ricerca__ su armi autonome tiene le potenze militari in una _competizione a rialzo_
+
+---
+
+{{% section %}}
+
+## IA e Giustizia
+
+{{% multicol %}}
+{{% col %}}
+{{< image width="100%" src="./concepts/justice.png" >}}
+{{% /col %}}
+{{% col %}}
+Due macro-categorie:
+
+1. __Supporto all'iter giudiziario__:
+    - es. supporto alla ricerca di _precedenti_, _sentenze_, _leggi_, etc.
+    - es. supporto alla _sentenza_ (molto __critico__!)
+
+2. __Rappresentazione computazionale della legge__:
+    - utile alle persone per identificare _sovrapposizioni_ / _buchi_ nelle leggi
+    - ricerca su come far _rispettare_ le leggi umane alle IA
+{{% /col %}}
+{{% /multicol %}}
+
+
+{{% /section %}}
+
+---
+
+{{% section %}}
+
+## IA e Etica (pt. 1)
+
+## Fairness (equità)
+
+{{< image src="./concepts/fairness.png" >}}
+
+- È stato osservato che IA tendono a _assorbire_ e _rinforzare_ i _bias_ umani
+    + es. _razzismo_, _sessismo_, _omofobia_, etc.
+
+- L'assorbimento è dovuto al fatto che i dati di allenamento spesso _fotografano_ i __bias__ umani...
+    + es. genere/etnia dei candidati per _centri per l'impiego_
+
+- ... ulteriori bias possono essere _introdotti_ (o _non-affrontati_) da _team di sviluppo_ poco __diversificati__
+    + es. sviluppatori potrebbero modellare l'attributo di _genere_ come _binario_
+
+- Il __rinforzo__ avviene quando IA massimizzano la _precisione_ rispetto ai dati di _allenamento_
+    + es. chiedi a Google Translate di tradurre:
+        * [`I call the doctor` $\rightarrow$ "Chiamo il dottore / la dottoressa"](https://translate.google.it/?hl=it&sl=en&tl=it&text=i%20call%20the%20doctor&op=translate)
+        * [`I call the nurse` $\rightarrow$ "Chiamo l'infermiere/a"](https://translate.google.it/?hl=it&sl=en&tl=it&text=i%20call%20the%20nurse&op=translate)
+
+---
+
+## IA e Etica (pt. 2)
+
+## Accentramento del potere
+
+{{< image src="./concepts/players.png" >}}
+
+TBD
+
+---
+
+## IA e Etica (pt. 3)
+
+## Sfruttamento lavoratori 
+
+{{% multicol %}}
+{{% col %}}
+(fonte [qui](https://time-com.translate.goog/6247678/openai-chatgpt-kenya-workers/?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=wapp&_x_tr_hist=true))
+{{< image src="./concepts/workers.webp" width="100%" >}} 
+{{% /col %}}
+{{% col %}}
+TBD
 {{% /col %}}
 {{% /multicol %}}
 
@@ -1423,9 +1614,13 @@ ha ancora senso il mestere del _centralinista_?
 
 {{% section %}}
 
-## IA e Istruzione
+## IA e Informazione
 
 TBD
+
+- https://it.wikipedia.org/wiki/Sovraccarico_cognitivo
+- https://en.wikipedia.org/wiki/Infodemic
+- https://en.wikipedia.org/wiki/Infodemiology
 
 {{% /section %}}
 
@@ -1433,37 +1628,7 @@ TBD
 
 {{% section %}}
 
-## IA e Sicurezza
-
-TBD
-
-{{% /section %}}
-
----
-
-{{% section %}}
-
-## IA e Difesa
-
-TBD
-
-{{% /section %}}
-
----
-
-{{% section %}}
-
-## IA e Giustizia
-
-TBD
-
-{{% /section %}}
-
----
-
-{{% section %}}
-
-## IA e Etica
+## IA e Arte
 
 TBD
 
