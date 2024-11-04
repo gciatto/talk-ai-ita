@@ -179,7 +179,7 @@ Dolores Abernathy di ["Westworld"](https://en.wikipedia.org/wiki/Westworld_(TV_s
 - iper-razionale
 - inizialmente un mero assistente, fa poi delle scelte autonome che impattano la trama
 - accesso completo a Internet
-- capacità di guadagnare il ottenere di altre macchine
+- capacità di guadagnare il controllo di altre macchine
 
 ---
 
@@ -1588,9 +1588,32 @@ Due macro-categorie:
 
 ## Accentramento del potere
 
-{{< image src="./concepts/players.png" >}}
 
-TBD
+{{% multicol %}}
+{{% col %}}
+{{< image src="./concepts/players.png" width="100%" >}}
+{{% /col %}}
+{{% col %}}
+<br>
+
+- Pochi player _dominano_ il mercato dell'IA _generativa_
+    + richiede _competenze specifiche_ e __risorse infrastrutturali__ enormi
+
+- Difficile per _piccole realtà_ __emergere__
+    + difficile per la _collettività_ __competere__
+
+- Modello di business tendente al __lock-in__ tecnologico
+    + come evitare il fenomeno della [merdificazione](https://en-m-wikipedia-org.translate.goog/wiki/Enshittification?_x_tr_sl=auto&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=wapp)
+
+- Note positive:
+    * esistono _alternative_ __open-source__, come [Hugging Face](https://huggingface.co/), etc.
+    * esistono iniziative per specializzare LLM su _lingue minori_
+        + es. [per l'Italiano](https://www.wired.it/article/large-language-model-in-italiano-progetti)
+
+- Corsa all'IA: cosa succede se un _paese_ rimane __indietro__?
+
+{{% /col %}}
+{{% /multicol %}}
 
 ---
 
@@ -1599,12 +1622,20 @@ TBD
 ## Sfruttamento lavoratori 
 
 {{% multicol %}}
-{{% col %}}
-(fonte [qui](https://time-com.translate.goog/6247678/openai-chatgpt-kenya-workers/?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=wapp&_x_tr_hist=true))
+{{% col class="col-5" %}}
 {{< image src="./concepts/workers.webp" width="100%" >}} 
 {{% /col %}}
 {{% col %}}
-TBD
+- Per rendere ChatGPT più presentabile, serve molto _lavoro umano_
+    + es. _revisione_ delle risposte
+    + es. _identificazione_ contenuti _inappropriati_
+
+- (Analogo a quanto accade per la __moderazione__ dei contenuti sui social media)
+
+- Questa forma di lavoro è spesso delocalizzato in __paesi in via di sviluppo__, dove la paga oraria è _bassa_
+    + es. [Kenya](https://time-com.translate.goog/6247678/openai-chatgpt-kenya-workers/?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=wapp&_x_tr_hist=true)
+
+- $\implies$ IA generativa _non_ è un prodotto a __impatto sociale__ nullo
 {{% /col %}}
 {{% /multicol %}}
 
@@ -1614,22 +1645,88 @@ TBD
 
 {{% section %}}
 
-## IA e Informazione
+## IA e Informazione (pt. 1)
 
-TBD
+### Concetti importanti
 
-- https://it.wikipedia.org/wiki/Sovraccarico_cognitivo
+<!-- - https://it.wikipedia.org/wiki/Sovraccarico_cognitivo
 - https://en.wikipedia.org/wiki/Infodemic
-- https://en.wikipedia.org/wiki/Infodemiology
+- https://en.wikipedia.org/wiki/Infodemiology -->
+
+> [Infodemia](https://en-m-wikipedia-org.translate.goog/wiki/Infodemic?_x_tr_sl=auto&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=wapp) \['informazione' + 'epidemia'\] è la diffusione di una quantità _eccessiva_ di __informazioni__, talvolta anche inaccurate, 
+> che rendono difficile _orientarsi_ su un determinato argomento per la difficoltà di individuare _fonti_ _affidabili_
+
+{{% fragment %}}
+> [Sovraccarico cognitivo](https://it.wikipedia.org/wiki/Sovraccarico_cognitivo) si verifica quando si ricevono __troppe__ _informazioni_ per riuscire a prendere una decisione o sceglierne una specifica sulla quale focalizzare l'attenzione
+{{% /fragment %}}
+
+---
+
+## IA e Informazione (pt. 2)
+
+### LLM e Infodemia
+
+- LLM abbassano notevolmente la _barriera_ al consumo e soprattutto alla _produzione_ di _informazione_
+    + es. _blog_, _articoli_, _libri_, _video_, etc.
+
+- Sarà più _tentato_ di usare LLM per __generare__ informazioni chi è già _pressato_ per produrne in _massa_ (e non di qualità)
+    + es. _giornalisti_, _scrittori_, _accademici_, etc.
+
+- Chi produce informazioni deliberatamente _distorte_ o _fuorvianti_ avrà vita ancora più _facile_
+    + es. _fake news_, _disinformazione_, _propaganda_, e tentativi vari di manipolare l'_opinione pubblica_
+
+- Possibile che, a tendere, gli LLM _imparino_ informazioni __sbagliate__ trovate in rete e le _riproducano_ con sicumera
+    + es. _teorie del complotto_, _bufale_, _fake news_, etc.
+
+---
+
+## IA e Informazione (pt. 3)
+
+### Fondamentale imparare a _distinguere_ tra contenuti __genuini__ e __sintetici__
+
+- __Genuini__: prodotti da _esseri umani_ e _verificabili_
+    + es. _articoli_ di _giornale_, _libri_, _video_, etc.
+
+- __Sintetici__: prodotti da _IA_, comunemente chiamati __deep-fakes__, allo scopo di _ingannare_ o _manipolare_
+    + es. _video_ e _audio_ manipolati, _articoli_ e _libri_ generati, etc.
+
+{{% fragment %}}
+### Alcuni esercizi per _allenarsi_ a distinguere
+
+1. <https://britannicaeducation.com/blog/quiz-real-or-ai/>
+
+2. <https://www.bbc.co.uk/bitesize/articles/zqnwxg8>
+
+3. <https://info.frontify.com/real-or-not-real-quiz>
+{{% /fragment %}}
 
 {{% /section %}}
 
 ---
 
-{{% section %}}
-
 ## IA e Arte
 
-TBD
+{{% multicol %}}
+{{% col class="col-5" %}}
+{{< image src="./concepts/copyright.avif" width="100%" >}} 
+{{% /col %}}
+{{% col class="col-7" %}}
+> _Di chi_ è l'__opera__ d'arte generata da un'IA?
+- es. immagine, canzone, poesia, etc.
 
-{{% /section %}}
+{{% fragment %}}
+> Quando _genero_ con IA, sto __copiando__ oppure sto __creando__?
+{{% /fragment %}}
+
+{{% fragment %}}
+Queste domande non hanno ancora risposte _definitive_
+
+$\implies$ state attenti ad eventiali __violazioni__ di _copyright_ e _plagio_
+quando usate LLM per scopi artistici
+{{% /fragment %}}
+{{% /col %}}
+{{% /multicol %}}
+
+---
+
+![The end](./end.webp)
