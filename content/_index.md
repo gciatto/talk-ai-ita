@@ -7,6 +7,8 @@ outputs = ["Reveal"]
 
 +++
 
+{{% section %}}
+
 # A cosa ci serve l'Intelligenza Arificiale?
 
 [Giovanni Ciatto](mailto:giovanni.ciatto@unibo.it)
@@ -16,6 +18,15 @@ outputs = ["Reveal"]
 <br>
 <span class="hint">Immagine generata con IA (notare l'errore "di battitura")</span>
 
+---
+
+## Link a queste slide
+
+<{{< slides-url >}}>
+
+![](./qr-slides.png)
+
+{{% /section %}}
 
 ---
 
@@ -670,7 +681,7 @@ Modello _"as-a-Service"_ $\approx$ l'IA sta nel cloud, vi si accede tramite Inte
 {{% col class="col-4" %}}
 {{< image alt="Installa ChatGPT su Android" src="./playstore.png" link="https://play.google.com/store/search?q=chatgpt&c=apps&hl=it" >}}
 
-![QR code per installare ChatGPT su Android](./qr-install-chatgpt-android.svg)
+![QR code per installare ChatGPT su Android](./qr-install-chatgpt-android.png)
 (scansiona per installare su Android)
 {{% /col %}}
 {{% col class="col-4" %}}
@@ -681,7 +692,7 @@ Logo dell'app:
 {{% col class="col-4" %}}
 {{< image alt="Installa ChatGPT su iOS" src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" link="https://apps.apple.com/it/app/chatgpt/id6448311069" height="128px" >}}
 
-![QR code per installare ChatGPT su Android](./qr-install-chatgpt-ios.svg)
+![QR code per installare ChatGPT su Android](./qr-install-chatgpt-ios.png)
 (scansiona per installare su iOS)
 {{% /col %}}
 {{% /multicol %}}
@@ -694,7 +705,7 @@ Logo dell'app:
 {{% col class="col-4" %}}
 {{< image alt="Installa Copilot su Android" src="./playstore.png" link="https://play.google.com/store/apps/details?id=com.microsoft.copilot&hl=it" >}}
 
-![QR code per installare Copilot su Android](./qr-install-copilot-android.svg)
+![QR code per installare Copilot su Android](./qr-install-copilot-android.png)
 (scansiona per installare su Android)
 {{% /col %}}
 {{% col class="col-4" %}}
@@ -705,7 +716,7 @@ Logo dell'app:
 {{% col class="col-4" %}}
 {{< image alt="Installa Copilot su iOS" src="https://upload.wikimedia.org/wikipedia/commons/6/67/App_Store_%28iOS%29.svg" link="https://apps.apple.com/it/app/microsoft-copilot/id6472538445" height="128px" >}}
 
-![QR code per installare Copilot su Android](./qr-install-copilot-ios.svg)
+![QR code per installare Copilot su Android](./qr-install-copilot-ios.png)
 (scansiona per installare su iOS)
 {{% /col %}}
 {{% /multicol %}}
