@@ -40,17 +40,18 @@ outputs = ["Reveal"]
 
 ---
 
+{{% section %}}
+
 ## Sfatiamo alcuni miti
 
 1. L'IA _non_ è __una cosa sola__
     - ci sono varie cose che vengono chiamate IA, molto diverse tra loro
 
-2. _Non_ ci sono __robot umanoidi__ _senzienti_ che si comportano come le persone
+2. _Non_ ci sono (solo / ancora) __robot umanoidi__ _senzienti_ che si comportano come le persone
     - l'IA è spesso invisibile, e non sempre ha bisogno di un corpo
         + es. google translate
         + es. filtri instagram
         + es. NPC dei videogiochi
-    - ci sono sono robot, anche umanoidi, ma ben che vada sanno fare azioni specifiche
 
 3. L'IA _non_ è __magica__ né onnipotente
     - molta _matematica_, molta _statistica_, molta _informatica_
@@ -58,10 +59,20 @@ outputs = ["Reveal"]
 
 ---
 
+C'è chi fa ricerca sui _robot_, anche umanoidi, ma __ben che vada__ sanno fare _azioni specifiche_:
+
+![](./humanoid-robot.webp)
+
+
+
+{{% /section %}}
+
+---
+
 ## Cos'è l'intelligenza __umana__?
 
 {{% fragment %}}
-Domanda difficile, la risposta dipende molto dal contesto
+Domanda _difficile_, la risposta dipende molto dal __contesto__
 {{% /fragment %}}
 
 {{% fragment %}}
