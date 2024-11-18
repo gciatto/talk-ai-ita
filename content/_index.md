@@ -547,8 +547,9 @@ Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parla
 1. __Allenamento__: gli umani forniscono _molti_ esempi _noti_ delle cose da riconoscere, la macchina impara da essi
     + es. _foto_ di vari animali e rispettivi _nomi_
 
-2. __Risultato__: la macchina allenata sa riconoscere foto anche mai viste prima
-    + es. _nuova_ foto di un animale, la macchina dice il suo _nome_
+2. __Risultato__: la macchina allenata sa riconoscere esempi anche _mai visti prima_
+    + es. _nuova_ foto di un animale _noto_, la macchina dice il suo _nome_
+    + __NB:__ la macchina _non_ saprà comunque riconoscere _nuovi tipi_ di animali
 
 <!-- https://www.youtube.com/watch?v=9tLCFbupeOI -->
 
@@ -610,7 +611,7 @@ Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parla
 
 <br>
 
-2. \[~2015\] sepre relativamente alle __GAN__: capacità di _variare lo stile_ di un contenuto
+2. \[~2015\] sempre relativamente alle __GAN__: capacità di _variare lo stile_ di un contenuto
     + es. implica capacità di _apprendere_ lo _stile_ di un'immagine e _applicarlo_ ad un'altra
     + __NB__: il concetto di stile NON è esplicitamente definito, è una cosa _intuitiva_ che le GAN imparano a riconoscere e riprodurre
 
@@ -628,7 +629,7 @@ Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parla
 
 <br>
 
-2. \[~2015\] sepre relativamente alle __GAN__: capacità di _modificare_ un contenuto sull'esempio di un altro
+2. \[~2015\] sempre relativamente alle __GAN__: capacità di _modificare_ un contenuto sull'esempio di un altro
     + es. riprodurre la _posa_ di un volto con un _altro volto_
         * __NB__: di nuovo, si evita di dover _definire_ cosa sia una _posa_, la macchina impara da sola
     + es. _deep-fakes_: <https://www.youtube.com/watch?v=koYcqsebFDE>
