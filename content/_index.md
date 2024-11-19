@@ -26,6 +26,8 @@ outputs = ["Reveal"]
 
 ![](./qr-slides.png)
 
+[<i class="fa fa-print" aria-hidden="true"></i> versione stampabile](?print-pdf&pdfSeparateFragments=false)
+
 {{% /section %}}
 
 ---
