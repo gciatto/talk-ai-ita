@@ -652,6 +652,8 @@ Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parla
 
 ---
 
+{{< slide id="jerryverso" >}}
+
 ## Problema: i __deep-fakes__
 
 Bello il [Jerryverso](https://www.instagram.com/thousandgerry/), ma se pensa alle _implicazioni_: le immagini che vedi in giro per la rete sono vere?
@@ -1727,6 +1729,7 @@ Due macro-categorie:
 
 - __Sintetici__: prodotti da _IA_, comunemente chiamati __deep-fakes__, allo scopo di _ingannare_ o _manipolare_
     + es. _video_ e _audio_ manipolati, _articoli_ e _libri_ generati, etc.
+    + esempio divertente: [il Jerryverso](#jerryverso)
 
 {{% fragment %}}
 ### Alcuni esercizi per _allenarsi_ a distinguere
