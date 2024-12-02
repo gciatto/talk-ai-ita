@@ -81,22 +81,28 @@ Domanda _difficile_, la risposta dipende molto dal __contesto__
 Esistono vari __tipi__ di intelligenza _logico-matematica_, verbale-linguistica, _emotiva_, corporeo-cinestetica, ...
 {{% /fragment %}}
 
+<br>
+
 {{% fragment %}}
 Più facile definire per esempi:
 + intelligenza come capacità di _apprendere_ (dall'esempio, dall'errore, ...)
 + capacità di _adattamento_ (applicare conoscenze a situazioni nuove)
-+ \[[Teoria della Mente](https://it.wikipedia.org/wiki/Teoria_della_mente)\] capacità di comprendere e _interpretare_ i comportamenti e pensieri _degli altri_
-+ \[__Senso comune__\] conoscenza di base su come funziona il mondo fisico (es. "se tocco il fuoco mi scotto") 
++ [Teoria della Mente](https://it.wikipedia.org/wiki/Teoria_della_mente): capacità di comprendere e _interpretare_ i comportamenti e pensieri _degli altri_
++ __Senso comune__: conoscenza di base su come funziona il mondo fisico (es. "se tocco il fuoco mi scotto") 
 {{% /fragment %}}
 
 ---
 
 ## Intelligenza vs. Autonomia
 
-> Altra caratteristica degli esseri umani: l'__autonomia__
-> $\approx$ le persone possono fare ciò che vogliono
+> Altra caratteristica degli esseri umani: 
+> <br>
+> __autonomia__ $\approx$ le persone possono fare ciò che vogliono
 
 "Fare ciò che si vuole" $\approx$ "avere capacità di _scelta_"
+
+<br>
+
 - autonomia __motivazionale__ $\rightarrow$ scelgo che _obiettivi_ pormi
     + es. "voglio comprare l'ultimo gioco di Zelda"
 - autonomia __esecutiva__ $\rightarrow$ scelgo _come_ raggiungere gli obiettivi
@@ -111,11 +117,9 @@ Più facile definire per esempi:
 
 ## Cos'è l'intelligenza __artificiale__?
 
-### (In parole povere)
-
 Una macchina (un computer) che è in grado di:
 
-- _emulare_ una o più abilità tipiche dell'intelligenza umana
+- _emulare_ una o più abilità tipiche dell'_intelligenza umana_
     + anche abilità scontate per un umano, come _riconoscere_ le cose del mondo fisico
         * __rappresentazione del mondo__
 
@@ -139,8 +143,8 @@ Una macchina (un computer) che è in grado di:
 
 <br>
 
-{{< image src="./roomba.webp" max-w="45%" max-h="60vh" >}}
-{{< image src="./condizionatore.jpg" max-w="45%" >}}
+{{< image src="./roomba.webp" width="45%" max-h="50vh" >}}
+{{< image src="./condizionatore.jpg" max-w="45%" max-h="50vh" >}}
 
 {{% /fragment %}}
 
@@ -160,6 +164,8 @@ Una macchina (un computer) che è in grado di:
 ---
 
 # AGI — Artificial _General_ Intelligence
+
+Intelligenti _come_ un essere umano
 
 ---
 
@@ -195,7 +201,7 @@ Dolores Abernathy di ["Westworld"](https://en.wikipedia.org/wiki/Westworld_(TV_s
 
 [J.A.R.V.I.S.](https://it.wikipedia.org/wiki/J.A.R.V.I.S.) di IronMan
 
-{{< image alt="Rappresentazione grafica di JARVIS" src="./jarvis.png" height="60vh" >}}
+{{< image alt="Rappresentazione grafica di JARVIS" src="./jarvis.png" width="80%" max-h="50vh" >}}
 
 <br>
 
@@ -209,6 +215,8 @@ Dolores Abernathy di ["Westworld"](https://en.wikipedia.org/wiki/Westworld_(TV_s
 
 # ASI — Artificial _Super_ Intelligence
 
+_Più_ intelligente degli esseri umani
+
 ---
 
 ## Esempi di ASI nella cinematografia (pt. 1)
@@ -217,7 +225,7 @@ Dolores Abernathy di ["Westworld"](https://en.wikipedia.org/wiki/Westworld_(TV_s
 
 {{% multicol %}}
 {{% col %}}
-{{< image alt="Rappresentazione grafica di Skynet" src="./skynet.webp" width="100%" >}}
+{{< image alt="Rappresentazione grafica di Skynet" src="./skynet.webp" width="100%" max-h="60vh" >}}
 {{% /col %}}
 {{% col %}}
 - nessun corpo: è un'entità virtuale
@@ -225,7 +233,7 @@ Dolores Abernathy di ["Westworld"](https://en.wikipedia.org/wiki/Westworld_(TV_s
 - quando raggiunge la auto-consapevolezza
     1. decide che gli umani sono una minaccia
     2. scatena un olocausto nucleare come attacco preventivo
-- \[implicito\] capacità di ottenere il controllo di altre macchine
+- capacità di ottenere il controllo di altre macchine
 {{% /col %}}
 {{% /multicol %}}
 
@@ -236,7 +244,7 @@ Dolores Abernathy di ["Westworld"](https://en.wikipedia.org/wiki/Westworld_(TV_s
 
 L'IA di [Matrix](https://it.wikipedia.org/wiki/Matrix) (da non confondersi col solo Mr. Smith)
 
-{{< image alt="Rappresentazione grafica di Matrix" src="./matrix.avif" height="60vh" >}}
+{{< image alt="Rappresentazione grafica di Matrix" src="./matrix.avif" width="100%" max-h="50vh" >}}
 
 <br>
 
@@ -244,7 +252,7 @@ L'IA di [Matrix](https://it.wikipedia.org/wiki/Matrix) (da non confondersi col s
 - le IA si sono ribellate agli umani:
     1. gli umani hanno oscurato il cielo per togliere energia alle macchine
     2. le macchine hanno iniziato ad attingere energia dagli umani coltivati
-- \[implicito\] le macchine hanno la capacità di costruirsi e (ri)progettarsi da sole
+- le macchine hanno la capacità di costruirsi e (ri)progettarsi da sole
 
 ---
 
@@ -252,7 +260,7 @@ L'IA di [Matrix](https://it.wikipedia.org/wiki/Matrix) (da non confondersi col s
 
 Rehoboam di [Westworld 3](https://it.wikipedia.org/wiki/Episodi_di_Westworld_-_Dove_tutto_%C3%A8_concesso_(terza_stagione))
 
-{{< image alt="Rappresentazione grafica di Rehoboam" src="./rehoboam.png" height="60vh" >}}
+{{< image alt="Rappresentazione grafica di Rehoboam" src="./rehoboam.png" width="100%" max-h="50vh" >}}
 
 <br>
 
@@ -268,7 +276,7 @@ Rehoboam di [Westworld 3](https://it.wikipedia.org/wiki/Episodi_di_Westworld_-_D
 
 "Il direttore" di [Travelers](https://it.wikipedia.org/wiki/Travelers)
 
-{{< image alt="Rappresentazione grafica del Direttore" src="./the-director.png" height="60vh" >}}
+{{< image alt="Rappresentazione grafica del Direttore" src="./the-director.png" width="100%" max-h="50vh" >}}
 
 <br>
 
@@ -280,13 +288,15 @@ Rehoboam di [Westworld 3](https://it.wikipedia.org/wiki/Episodi_di_Westworld_-_D
 
 # ANI — Artificial _Narrow_ Intelligence
 
+Intelligente (veloce) ma _senza autonomia_
+
 ---
 
 ## Esempi di ANI dalla vita reale (pt. 1)
 
 Traduzione automatica _di testo_ — Es. [Google Translate](https://translate.google.it/?hl=it&sl=it&tl=en) 
 
-{{< image alt="Interfaccia di Google Translate" src="./google-translate.png" link="https://translate.google.it/?hl=it&sl=it&tl=en&text=apelle%20figlio%20di%20apollo%20fece%20una%20palla%20di%20pelle%20di%20pollo%20e%20tutti%20i%20pesci%20vennero%20a%20galla%20per%20vedere%20la%20palla%20di%20pelle%20di%20pollo%20fatta%20da%20apelle%20figlio%20di%20apollo&op=translate" height="60vh" >}}
+{{< image alt="Interfaccia di Google Translate" src="./google-translate.png" link="https://translate.google.it/?hl=it&sl=it&tl=en&text=apelle%20figlio%20di%20apollo%20fece%20una%20palla%20di%20pelle%20di%20pollo%20e%20tutti%20i%20pesci%20vennero%20a%20galla%20per%20vedere%20la%20palla%20di%20pelle%20di%20pollo%20fatta%20da%20apelle%20figlio%20di%20apollo&op=translate" width="100%" max-h="60vh" >}}
 
 <br>
 
@@ -298,7 +308,7 @@ Traduzione automatica _di testo_ — Es. [Google Translate](https://translate.go
 
 Traduzione automatica _di immagini_ — Es. [Google Translate](https://translate.google.it/?sl=en&tl=it&op=images) 
 
-{{< image alt="Interfaccia di Google Translate" src="./google-translate-image.png" height="60vh" >}}
+{{< image alt="Interfaccia di Google Translate" src="./google-translate-image.png" width="100%" max-h="60vh" >}}
 
 <br>
 
@@ -312,7 +322,7 @@ Traduzione automatica _di immagini_ — Es. [Google Translate](https://translate
 
 "Filtri" dei social network — Es. [Instagram](https://www.instagram.com/)
 
-{{< image alt="Interfaccia di Instagram" src="./instagram-filters.jpg" height="60vh" >}} 
+{{< image alt="Interfaccia di Instagram" src="./instagram-filters.jpg" width="100%" max-h="60vh" >}}
 
 <br>
 
@@ -325,9 +335,9 @@ Traduzione automatica _di immagini_ — Es. [Google Translate](https://translate
 
 Riconoscimento di immagini — Es. analisi del traffico
 
-{{< image src="./image-recognition-1.avif" width="33%" >}}
-{{< image src="./image-recognition-2.webp" width="33%" >}}
-{{< image src="./image-recognition-3.png" width="33%" >}} 
+{{< image src="./image-recognition-1.avif" width="33%" max-h="40vh" >}}
+{{< image src="./image-recognition-2.webp" width="33%" max-h="40vh" >}}
+{{< image src="./image-recognition-3.png" width="33%" max-h="40vh" >}}
 
 - include capacità di _riconoscere_ e _localizzare_ oggetti in immagini
 - sembra una IA "unica", ma in realtà ogni IA è specializzata su un gruppo di oggetti
@@ -339,7 +349,7 @@ Riconoscimento di immagini — Es. analisi del traffico
 
 Riconoscimento di immagini — Es. autenticazione con volto
 
-{{< image src="./face-recognition.jpg" >}} 
+{{< image src="./face-recognition.jpg" max-w="100%" max-h="60vh" >}}
 
 <br>
 
@@ -354,7 +364,7 @@ Riconoscimento di immagini — Es. autenticazione con volto
 
 Riconoscimento di immagini — Es. di impronte digitali
 
-{{< image src="./fingerprints.png" height="60vh" >}}
+{{< image src="./fingerprints.png" width="80%" max-h="50vh" >}}
 
 <br>
 
@@ -369,7 +379,7 @@ Riconoscimento di immagini — Es. di impronte digitali
 
 Riconoscimento di immagini — Es. di caratteri scritti a mano
 
-{{< image src="./hwr-1.jpg" height="60vh" >}} 
+{{< image src="./hwr-1.jpg" max-w="80%" max-h="50vh" >}}
 [esempio interattivo qui](https://shapecatcher.com/)
 
 <br>
@@ -384,7 +394,7 @@ Riconoscimento di immagini — Es. di caratteri scritti a mano
 
 Calcolo di percorsi — Es. [Google Maps](https://www.google.it/maps)
 
-{{< image src="./google-maps.png" link="https://www.google.it/maps/dir/Cesena,+FC/47019+Tredozio+FC/@44.2020717,11.8303411,11z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x132ca4d41ed493c1:0xbee0ab1075577a47!2m2!1d12.2464292!2d44.1396438!1m5!1m1!1s0x132b6a8d8b16349b:0x89b559ffb27df3de!2m2!1d11.7438477!2d44.0792596!3e0?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" height="60vh" >}}
+{{< image src="./google-maps.png" link="https://www.google.it/maps/dir/Cesena,+FC/47019+Tredozio+FC/@44.2020717,11.8303411,11z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x132ca4d41ed493c1:0xbee0ab1075577a47!2m2!1d12.2464292!2d44.1396438!1m5!1m1!1s0x132b6a8d8b16349b:0x89b559ffb27df3de!2m2!1d11.7438477!2d44.0792596!3e0?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D" width="80%" max-h="50vh" >}}
 
 <br>
 
@@ -396,9 +406,9 @@ Calcolo di percorsi — Es. [Google Maps](https://www.google.it/maps)
 
 ## Esempi di ANI dalla vita reale (pt. 9)
 
-Calcolo di percorsi — Es. _Non-Playing Characters_ (NPC, Personaggi non giocanti) nei videogiochi
+Calcolo di percorsi — Es. _Movimento_ dei _personaggi_ nei _videogiochi_
 
-{{< image src="./a-star2.gif" height="60vh" >}}
+{{< image src="./a-star2.gif" width="80%" max-h="50vh" >}}
 [esempio interattivo qui](https://amarillion.github.io/helixgraph/examples/d3/)
 
 <br>
@@ -412,7 +422,7 @@ Calcolo di percorsi — Es. _Non-Playing Characters_ (NPC, Personaggi non giocan
 
 Riconoscimento di _suoni_ — Es. [Shazam](https://www.shazam.com/)
 
-{{< image src="./shazam.webp" height="70vh" >}}
+{{< image src="./shazam.webp" width="80%" max-h="50vh" >}}
 
 <br>
 
@@ -425,7 +435,7 @@ Riconoscimento di _suoni_ — Es. [Shazam](https://www.shazam.com/)
 Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parlato
 
 [(esempio interattivo qui)](https://dictation.io/speech)
-{{< image src="./speech-recognition.png" >}}
+{{< image src="./speech-recognition.png" width="60%" max-h="40vh" >}}
 
 <br>
 
@@ -540,9 +550,9 @@ Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parla
 
 ---
 
-## Apprendimento da Esempi
+## Apprendimento da __Esempi__
 
-{{< image src="supervised.png" height="60vh"  >}}
+{{< image src="supervised.png" width="80%" max-h="50vh" >}}
 
 <br>
 
@@ -557,9 +567,9 @@ Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parla
 
 ---
 
-## Apprendimento per Rinforzo
+## Apprendimento per __Rinforzo__
 
-{{< image src="reinforcement.jpg" height="60vh" >}}
+{{< image src="reinforcement.jpg" width="80%" max-h="50vh" >}}
 
 <br>
 
@@ -646,13 +656,13 @@ Riconoscimento di _suoni_ — Es. Speech-to-Text (STT), Riconoscimento del parla
 
 Bello il [Jerryverso](https://www.instagram.com/thousandgerry/), ma se pensa alle _implicazioni_: le immagini che vedi in giro per la rete sono vere?
 
-{{< image src="./jerryverso/allstar.png" link="https://www.instagram.com/p/DAS7d1tMtMs/" max-h="50vh" >}}
-{{< image src="./jerryverso/beautifulgirl.png" link="https://www.instagram.com/p/DAx1B0Cs_3C/" max-h="50vh" >}}
-{{< image src="./jerryverso/corazonespinado.png" link="https://www.instagram.com/p/DAgBU8xMBjY/" max-h="50vh" >}}
-{{< image src="./jerryverso/dicaprio.png" link="https://www.instagram.com/p/C_5YMxBsByg/" max-h="50vh" >}}
-{{< image src="./jerryverso/girl.png" link="https://www.instagram.com/p/C_bCfxUN7pf/" max-h="50vh" >}}
-{{< image src="./jerryverso/megustastu.png" link="https://www.instagram.com/p/DBD5cBrsS40/" max-h="50vh" >}}
-{{< image src="./jerryverso/mudo.png" link="https://www.instagram.com/p/DBbNmCYMHrq/" max-h="50vh" >}}
+{{< image src="./jerryverso/allstar.png" link="https://www.instagram.com/p/DAS7d1tMtMs/" width="24%" max-h="30vh" >}}
+{{< image src="./jerryverso/beautifulgirl.png" link="https://www.instagram.com/p/DAx1B0Cs_3C/" width="24%" max-h="30vh" >}}
+{{< image src="./jerryverso/corazonespinado.png" link="https://www.instagram.com/p/DAgBU8xMBjY/" width="24%" max-h="30vh" >}}
+{{< image src="./jerryverso/dicaprio.png" link="https://www.instagram.com/p/C_5YMxBsByg/" width="24%" max-h="30vh" >}}
+{{< image src="./jerryverso/girl.png" link="https://www.instagram.com/p/C_bCfxUN7pf/" width="24%" max-h="30vh" >}}
+{{< image src="./jerryverso/megustastu.png" link="https://www.instagram.com/p/DBD5cBrsS40/" width="24%" max-h="30vh" >}}
+{{< image src="./jerryverso/mudo.png" link="https://www.instagram.com/p/DBbNmCYMHrq/" width="24%" max-h="30vh" >}}
 
 {{% /section %}}
 
@@ -754,7 +764,7 @@ Prova ad avere una _conversazione_ su un tema di cui __sai già qualcosa__, ad e
 <br>
 
 {{% fragment %}}
-{{< image src="./generated-carbonara.png" alt="./generated-carbonara.png" height="50vh" >}}
+{{< image src="./generated-carbonara.png" alt="./generated-carbonara.png" max-w="50%" max-h="40vh" >}}
 {{% /fragment %}}
 
 ---
@@ -816,11 +826,11 @@ Prova a fare una _ricerca_ su un tema di cui __hai un'idea vaga__, ad esempio:
 
 ## Le immagini generate al punto 5
 
-{{< image src="./fedez/image1.webp" width="33%" max-h="50vh" >}}
-{{< image src="./fedez/image2.webp" width="33%" max-h="50vh" >}}
-{{< image src="./fedez/image3.webp" width="33%" max-h="50vh" >}}
-{{< image src="./fedez/image4.webp" width="33%" max-h="50vh" >}}
-{{< image src="./fedez/image5.webp" width="33%" max-h="50vh" >}}
+{{< image src="./fedez/image1.webp" width="33%" max-h="35vh" >}}
+{{< image src="./fedez/image2.webp" width="33%" max-h="35vh" >}}
+{{< image src="./fedez/image3.webp" width="33%" max-h="35vh" >}}
+{{< image src="./fedez/image4.webp" width="33%" max-h="35vh" >}}
+{{< image src="./fedez/image5.webp" width="33%" max-h="35vh" >}}
 
 ---
 
@@ -845,7 +855,7 @@ Prova a fare una _ricerca_ su un tema di cui __hai un'idea vaga__, ad esempio:
 
 ## Come vengono allenati gli LLM?
 
-{{< image src="./dataflow.png" alt="Schema concettuale che mostra come avviene l'allenamento degli LLM" height="35vh" >}}
+{{< image src="./dataflow.png" alt="Schema concettuale che mostra come avviene l'allenamento degli LLM" width="70%" max-h="30vh" >}}
 
 1. Un misto di allenamento __supervisionato__ e __per rinforzo__
     - _supervisionato_: si parte da esempi di _testo_, _immagini_, e _contenuti_ vari dal __Web pubblico__ + __dati aziendali__ vari
@@ -957,6 +967,8 @@ Usiamo ChatGPT per una ricerca in _biologia_: il __bioma__ desertico e la sua __
 
 Esempio: <https://app.gptzero.me/app/ai-scan>
 
+<br>
+
 {{% fragment %}}
 ### Esempio di utilizzo
 
@@ -968,6 +980,7 @@ Esempio: <https://app.gptzero.me/app/ai-scan>
 {{% /fragment %}}
 
 {{% fragment %}}
+
 ### Considerazioni
 
 - Le IA per generazione di testo migliorano col tempo, come pure quelle per identificare di testo generato
@@ -1214,7 +1227,7 @@ Soprattutto, come si fa a farlo _senza_ prima definire cosa sia l'intelligenza?
 
 {{% fragment %}}
 ### [Test di Turing](https://it.wikipedia.org/wiki/Test_di_Turing) (1950)
-{{< image src="./turing-test.webp" alt="Rappresentazione grafica del Test di Turing" width="50%" >}}
+{{< image src="./turing-test.webp" alt="Rappresentazione grafica del Test di Turing" width="50%" max-h="50vh" >}}
 
 IDEA: si testa l'intelligenza _"ai morsetti"_:
 
