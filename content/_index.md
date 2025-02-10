@@ -11,10 +11,12 @@ outputs = ["Reveal"]
 
 # A cosa ci serve l'Intelligenza Arificiale?
 
-[Giovanni Ciatto](mailto:giovanni.ciatto@unibo.it)
-(versione presentazione: {{< today >}})
+<span class="hint">(versione presentazione: {{< today >}})</span>
 
-![Immagine di copertina generata con typo](./front.png)
+[Giovanni Ciatto](https://www.unibo.it/sitoweb/giovanni.ciatto), Dipartimento di Informatica — Scienza e Ingegneria (DISI), Sede di Cesena,
+<br>Alma Mater Studiorum—Università di Bologna
+
+{{< image src="./front.png" alt="Immagine di copertina generata con typo" max-h="70vh" >}}
 <br>
 <span class="hint">Immagine generata con IA (notare l'errore "di battitura")</span>
 
